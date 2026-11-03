@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://prep-bangla-website.vercel.app/sitemap.xml
