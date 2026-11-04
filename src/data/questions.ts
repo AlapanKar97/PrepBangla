@@ -152,7 +152,7 @@ export const questions: Question[] = [
     explanation: { en: "A repo is a liquidity-providing transaction in which eligible securities are used as collateral. The exact eligible participants and securities are governed by RBI rules.", bn: "রেপো হলো তারল্য প্রদানের লেনদেন, যেখানে যোগ্য সিকিউরিটিজ জামানত হিসেবে ব্যবহৃত হয়। কারা অংশ নিতে পারবে এবং কোন সিকিউরিটিজ যোগ্য হবে, তা RBI-র নিয়মে নির্ধারিত।" },
     source: "Original PrepBangla question; RBI monetary policy instruments reference.",
     status: "verified"
-  }
+  },
   {
     id: "wbcs-econ-011", exam: "WBCS", subject: "Economy",
     question: { en: "Which of the following is a direct tax in India?", bn: "ভারতে নিচের কোনটি প্রত্যক্ষ কর?" },
