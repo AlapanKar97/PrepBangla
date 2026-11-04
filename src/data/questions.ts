@@ -12,75 +12,7 @@ export type Question = {
   status: "demo" | "verified";
 };
 
-// Demo questions are retained for the original site preview.
-// New verified questions are original PrepBangla drafts, checked against standard
-// economics definitions and official reference material. They are not copied PYQs.
 export const questions: Question[] = [
-  {
-    id: "demo-econ-001", exam: "WBCS", subject: "Economy",
-    question: { en: "Which institution is responsible for monetary policy in India?", bn: "ভারতে মুদ্রানীতি পরিচালনার দায়িত্ব কোন প্রতিষ্ঠানের?" },
-    options: [
-      { en: "Ministry of Finance", bn: "অর্থ মন্ত্রক" },
-      { en: "Reserve Bank of India", bn: "রিজার্ভ ব্যাঙ্ক অফ ইন্ডিয়া" },
-      { en: "NITI Aayog", bn: "নীতি আয়োগ" },
-      { en: "SEBI", bn: "সেবি" }
-    ],
-    answer: 1,
-    explanation: { en: "The Reserve Bank of India (RBI) is India's central bank and is responsible for monetary policy.", bn: "রিজার্ভ ব্যাঙ্ক অফ ইন্ডিয়া (RBI) ভারতের কেন্দ্রীয় ব্যাঙ্ক এবং মুদ্রানীতির দায়িত্বে রয়েছে।" },
-    status: "demo"
-  },
-  {
-    id: "demo-econ-002", exam: "WBCS", subject: "Economy",
-    question: { en: "GDP at market prices includes which of the following?", bn: "বাজারদরে GDP-তে নিচের কোনটি অন্তর্ভুক্ত থাকে?" },
-    options: [
-      { en: "Only wages", bn: "শুধু মজুরি" },
-      { en: "Only exports", bn: "শুধু রপ্তানি" },
-      { en: "Value of final goods and services produced within the country", bn: "দেশের অভ্যন্তরে উৎপাদিত চূড়ান্ত পণ্য ও পরিষেবার মূল্য" },
-      { en: "Only government expenditure", bn: "শুধু সরকারি ব্যয়" }
-    ],
-    answer: 2,
-    explanation: { en: "GDP measures the market value of all final goods and services produced within a country's domestic territory during a period.", bn: "GDP নির্দিষ্ট সময়ে দেশের ভৌগোলিক সীমানার মধ্যে উৎপাদিত সমস্ত চূড়ান্ত পণ্য ও পরিষেবার বাজারমূল্য পরিমাপ করে।" },
-    status: "demo"
-  },
-  {
-    id: "demo-econ-003", exam: "WBCS", subject: "Economy",
-    question: { en: "A sustained rise in the general price level is called:", bn: "সাধারণ মূল্যস্তরের ধারাবাহিক বৃদ্ধিকে কী বলা হয়?" },
-    options: [
-      { en: "Deflation", bn: "মুদ্রাসংকোচন" },
-      { en: "Inflation", bn: "মুদ্রাস্ফীতি" },
-      { en: "Disinvestment", bn: "বিনিয়োগ প্রত্যাহার" },
-      { en: "Depreciation", bn: "অবচয়" }
-    ],
-    answer: 1,
-    explanation: { en: "Inflation is a sustained increase in the general price level, reducing the purchasing power of money.", bn: "মুদ্রাস্ফীতি হলো সাধারণ মূল্যস্তরের ধারাবাহিক বৃদ্ধি, যার ফলে টাকার ক্রয়ক্ষমতা কমে।" },
-    status: "demo"
-  },
-  {
-    id: "demo-polity-001", exam: "WBCS", subject: "Polity",
-    question: { en: "The Constitution of India came into force on:", bn: "ভারতের সংবিধান কার্যকর হয় কবে?" },
-    options: [
-      { en: "15 August 1947", bn: "১৫ আগস্ট ১৯৪৭" },
-      { en: "26 November 1949", bn: "২৬ নভেম্বর ১৯৪৯" },
-      { en: "26 January 1950", bn: "২৬ জানুয়ারি ১৯৫০" },
-      { en: "2 October 1950", bn: "২ অক্টোবর ১৯৫০" }
-    ],
-    answer: 2,
-    explanation: { en: "The Constitution was adopted on 26 November 1949 and came into force on 26 January 1950.", bn: "সংবিধান ২৬ নভেম্বর ১৯৪৯ গৃহীত হয় এবং ২৬ জানুয়ারি ১৯৫০ কার্যকর হয়।" },
-    status: "demo"
-  },
-  {
-    id: "demo-history-001", exam: "WBCS", subject: "History",
-    question: { en: "Who founded the Brahmo Sabha in 1828?", bn: "১৮২৮ সালে ব্রাহ্মসভা কে প্রতিষ্ঠা করেন?" },
-    options: [
-      { en: "Ishwar Chandra Vidyasagar", bn: "ঈশ্বরচন্দ্র বিদ্যাসাগর" },
-      { en: "Raja Rammohan Roy", bn: "রাজা রামমোহন রায়" },
-      { en: "Debendranath Tagore", bn: "দেবেন্দ্রনাথ ঠাকুর" },
-      { en: "Keshab Chandra Sen", bn: "কেশবচন্দ্র সেন" }
-    ],
-    answer: 1,
-    explanation: { en: "Raja Rammohan Roy founded the Brahmo Sabha in 1828; it later became associated with the Brahmo Samaj.", bn: "রাজা রামমোহন রায় ১৮২৮ সালে ব্রাহ্মসভা প্রতিষ্ঠা করেন; পরবর্তীকালে এটি ব্রাহ্মসমাজ নামে পরিচিত হয়।" },
-    status: "demo"
-  },
   {
     id: "wbcs-econ-001", exam: "WBCS", subject: "Economy",
     question: { en: "In economics, opportunity cost is best defined as:", bn: "অর্থনীতিতে সুযোগ ব্যয় বলতে কী বোঝায়?" },
@@ -94,7 +26,7 @@ export const questions: Question[] = [
     explanation: { en: "Choosing one option means giving up another. Opportunity cost is the value of the best alternative sacrificed, not necessarily a cash payment.", bn: "একটি বিকল্প বেছে নিলে অন্য একটি বিকল্প ত্যাগ করতে হয়। ত্যাগ করা সেরা বিকল্পটির মূল্যই সুযোগ ব্যয়; এটি সবসময় নগদ অর্থের ব্যয় নয়।" },
     source: "Original PrepBangla question; standard introductory microeconomics concept.",
     status: "verified"
-  },
+  },,
   {
     id: "wbcs-econ-002", exam: "WBCS", subject: "Economy",
     question: { en: "The basic economic problem of scarcity exists because:", bn: "সম্পদের স্বল্পতার মৌলিক অর্থনৈতিক সমস্যা সৃষ্টি হয় কেন?" },
@@ -108,7 +40,7 @@ export const questions: Question[] = [
     explanation: { en: "Scarcity means resources are insufficient to satisfy all wants. It makes choice and allocation necessary.", bn: "স্বল্পতা অর্থ সব চাহিদা পূরণের জন্য সম্পদ যথেষ্ট নয়। তাই নির্বাচন ও সম্পদ বণ্টনের প্রয়োজন হয়।" },
     source: "Original PrepBangla question; standard introductory economics concept.",
     status: "verified"
-  },
+  },,
   {
     id: "wbcs-econ-003", exam: "WBCS", subject: "Economy",
     question: { en: "An outward shift of the production possibility frontier most directly indicates:", bn: "উৎপাদন সম্ভাবনা সীমারেখা বাইরের দিকে সরে যাওয়া প্রধানত কী নির্দেশ করে?" },
@@ -122,7 +54,7 @@ export const questions: Question[] = [
     explanation: { en: "More resources, improved technology or higher productivity can expand the combinations of goods an economy is capable of producing.", bn: "সম্পদ বৃদ্ধি, উন্নত প্রযুক্তি বা উৎপাদনশীলতা বৃদ্ধির ফলে অর্থনীতি আরও বেশি পণ্য উৎপাদন করতে পারে; তাই সীমারেখা বাইরে সরে যায়।" },
     source: "Original PrepBangla question; standard production possibility frontier concept.",
     status: "verified"
-  },
+  },,
   {
     id: "wbcs-econ-004", exam: "WBCS", subject: "Economy",
     question: { en: "Which of the following is excluded from the calculation of GDP to avoid double counting?", bn: "দ্বৈত গণনা এড়াতে GDP গণনা থেকে কোনটি আলাদাভাবে বাদ দেওয়া হয়?" },
@@ -136,7 +68,7 @@ export const questions: Question[] = [
     explanation: { en: "The value of intermediate inputs such as steel is already reflected in the value of the final car. Counting both separately would double count production.", bn: "ইস্পাতের মতো মধ্যবর্তী উপকরণের মূল্য চূড়ান্ত গাড়ির মূল্যের মধ্যেই অন্তর্ভুক্ত থাকে। দুটিকে আলাদাভাবে যোগ করলে দ্বৈত গণনা হবে।" },
     source: "Original PrepBangla question; MoSPI national accounts methodology.",
     status: "verified"
-  },
+  },,
   {
     id: "wbcs-econ-005", exam: "WBCS", subject: "Economy",
     question: { en: "Which statement correctly distinguishes real GDP from nominal GDP?", bn: "প্রকৃত GDP ও নামমাত্র GDP-র মধ্যে সঠিক পার্থক্য কোনটি?" },
@@ -150,7 +82,7 @@ export const questions: Question[] = [
     explanation: { en: "Nominal GDP values output at current prices. Real GDP values output at constant prices so that changes better reflect changes in production volume.", bn: "নামমাত্র GDP চলতি দামে উৎপাদনের মূল্য নির্ধারণ করে। প্রকৃত GDP স্থির দামে মূল্যায়ন করে, ফলে উৎপাদনের পরিমাণগত পরিবর্তন ভালোভাবে বোঝা যায়।" },
     source: "Original PrepBangla question; MoSPI national accounts and GDP methodology.",
     status: "verified"
-  },
+  },,
   {
     id: "wbcs-econ-006", exam: "WBCS", subject: "Economy",
     question: { en: "Net Domestic Product (NDP) is obtained by subtracting which item from GDP?", bn: "GDP থেকে কোন উপাদান বাদ দিলে নিট দেশজ উৎপাদন (NDP) পাওয়া যায়?" },
@@ -164,7 +96,7 @@ export const questions: Question[] = [
     explanation: { en: "NDP = GDP minus consumption of fixed capital, commonly called depreciation.", bn: "NDP = GDP − স্থায়ী মূলধনের ক্ষয়, যাকে সাধারণভাবে অবচয় বলা হয়।" },
     source: "Original PrepBangla question; MoSPI national accounts methodology.",
     status: "verified"
-  },
+  },,
   {
     id: "wbcs-econ-007", exam: "WBCS", subject: "Economy",
     question: { en: "Which index is primarily designed to measure changes in the retail prices of a basket of goods and services consumed by households in India?", bn: "ভারতে পরিবারগুলির ভোগ করা পণ্য ও পরিষেবার ঝুড়ির খুচরা দামের পরিবর্তন মাপার জন্য প্রধানত কোন সূচক ব্যবহৃত হয়?" },
@@ -178,7 +110,7 @@ export const questions: Question[] = [
     explanation: { en: "CPI tracks retail price changes in a representative basket of goods and services consumed by households. It is widely used as a measure of consumer inflation.", bn: "CPI পরিবারগুলির ভোগ করা পণ্য ও পরিষেবার প্রতিনিধিত্বমূলক ঝুড়ির খুচরা দামের পরিবর্তন মাপে। ভোক্তা মুদ্রাস্ফীতি পরিমাপেও এটি বহুল ব্যবহৃত।" },
     source: "Original PrepBangla question; MoSPI CPI methodology and FAQ.",
     status: "verified"
-  },
+  },,
   {
     id: "wbcs-econ-008", exam: "WBCS", subject: "Economy",
     question: { en: "A sustained increase in the general price level of goods and services in an economy is known as:", bn: "অর্থনীতিতে পণ্য ও পরিষেবার সাধারণ মূল্যস্তরের ধারাবাহিক বৃদ্ধিকে কী বলা হয়?" },
@@ -192,7 +124,7 @@ export const questions: Question[] = [
     explanation: { en: "Inflation is a sustained rise in the general price level. Disinflation means inflation is slowing, while deflation means the general price level is falling.", bn: "সাধারণ মূল্যস্তরের ধারাবাহিক বৃদ্ধিই মুদ্রাস্ফীতি। মুদ্রাস্ফীতির হার কমার অর্থ disinflation; আর সাধারণ মূল্যস্তর কমার অর্থ deflation।" },
     source: "Original PrepBangla question; standard macroeconomics terminology.",
     status: "verified"
-  },
+  },,
   {
     id: "wbcs-econ-009", exam: "WBCS", subject: "Economy",
     question: { en: "Which institution is India's central bank?", bn: "ভারতের কেন্দ্রীয় ব্যাংক কোনটি?" },
@@ -206,7 +138,7 @@ export const questions: Question[] = [
     explanation: { en: "The Reserve Bank of India is India's central bank. It performs central banking functions, including monetary policy and regulation/supervision of parts of the financial system.", bn: "রিজার্ভ ব্যাঙ্ক অফ ইন্ডিয়া ভারতের কেন্দ্রীয় ব্যাংক। এটি মুদ্রানীতি পরিচালনা এবং আর্থিক ব্যবস্থার বিভিন্ন অংশের নিয়ন্ত্রণ ও তদারকির মতো কেন্দ্রীয় ব্যাংকের কাজ করে।" },
     source: "Original PrepBangla question; Reserve Bank of India official material.",
     status: "verified"
-  },
+  },,
   {
     id: "wbcs-econ-010", exam: "WBCS", subject: "Economy",
     question: { en: "Under a repo transaction, the Reserve Bank of India provides short-term liquidity to eligible participants against:", bn: "রেপো লেনদেনে রিজার্ভ ব্যাঙ্ক অফ ইন্ডিয়া যোগ্য অংশগ্রহণকারীদের কোনটির বিপরীতে স্বল্পমেয়াদি তারল্য দেয়?" },
@@ -221,7 +153,7 @@ export const questions: Question[] = [
     source: "Original PrepBangla question; RBI monetary policy instruments reference.",
     status: "verified"
   }
-,
+,,
   {
     id: "wbcs-econ-011", exam: "WBCS", subject: "Economy",
     question: { en: "Which of the following is a direct tax in India?", bn: "ভারতে নিচের কোনটি প্রত্যক্ষ কর?" },
@@ -235,7 +167,7 @@ export const questions: Question[] = [
     explanation: { en: "A direct tax is imposed directly on the income or wealth of the person who bears its burden. Personal income tax is a direct tax.", bn: "প্রত্যক্ষ কর সেই ব্যক্তি বা প্রতিষ্ঠানের আয় বা সম্পদের উপর সরাসরি আরোপিত হয়, যিনি করের বোঝা বহন করেন। ব্যক্তিগত আয়কর প্রত্যক্ষ কর।" },
     source: "Original PrepBangla question; standard Indian economics and official institutional reference.",
     status: "verified"
-  },
+  },,
   {
     id: "wbcs-econ-012", exam: "WBCS", subject: "Economy",
     question: { en: "Goods and Services Tax (GST) in India is best described as:", bn: "ভারতে পণ্য ও পরিষেবা কর (GST)-কে কীভাবে বর্ণনা করা যায়?" },
@@ -249,7 +181,7 @@ export const questions: Question[] = [
     explanation: { en: "GST is a destination-based indirect tax levied on the supply of goods and services, subject to statutory provisions and exemptions.", bn: "GST হলো পণ্য ও পরিষেবার সরবরাহের উপর আরোপিত গন্তব্যভিত্তিক পরোক্ষ কর; আইন অনুযায়ী কিছু ছাড় ও বিশেষ বিধান রয়েছে।" },
     source: "Original PrepBangla question; standard Indian economics and official institutional reference.",
     status: "verified"
-  },
+  },,
   {
     id: "wbcs-econ-013", exam: "WBCS", subject: "Economy",
     question: { en: "Which body recommends the distribution of the net proceeds of certain taxes between the Union and the States?", bn: "কেন্দ্র ও রাজ্যের মধ্যে নির্দিষ্ট করের নিট আয় বণ্টনের সুপারিশ করে কোন সংস্থা?" },
@@ -263,7 +195,7 @@ export const questions: Question[] = [
     explanation: { en: "Article 280 provides for a Finance Commission, which recommends the distribution of tax proceeds between the Union and States and grants-in-aid principles.", bn: "সংবিধানের ২৮০ অনুচ্ছেদে অর্থ কমিশনের বিধান রয়েছে। এটি কেন্দ্র ও রাজ্যের মধ্যে করের আয় বণ্টন এবং অনুদান-সহায়তার নীতি সম্পর্কে সুপারিশ করে।" },
     source: "Original PrepBangla question; standard Indian economics and official institutional reference.",
     status: "verified"
-  },
+  },,
   {
     id: "wbcs-econ-014", exam: "WBCS", subject: "Economy",
     question: { en: "The annual financial statement of the Government of India is referred to in which Article of the Constitution?", bn: "ভারত সরকারের বার্ষিক আর্থিক বিবৃতি সংবিধানের কোন অনুচ্ছেদে উল্লেখিত?" },
@@ -277,7 +209,7 @@ export const questions: Question[] = [
     explanation: { en: "Article 112 requires the President to cause an annual financial statement of the estimated receipts and expenditure of the Government of India to be laid before both Houses of Parliament.", bn: "১১২ অনুচ্ছেদ অনুযায়ী রাষ্ট্রপতি ভারত সরকারের সম্ভাব্য আয় ও ব্যয়ের বার্ষিক আর্থিক বিবৃতি সংসদের উভয় কক্ষে পেশ করার ব্যবস্থা করেন।" },
     source: "Original PrepBangla question; standard Indian economics and official institutional reference.",
     status: "verified"
-  },
+  },,
   {
     id: "wbcs-econ-015", exam: "WBCS", subject: "Economy",
     question: { en: "A fiscal deficit broadly represents:", bn: "সাধারণভাবে রাজস্ব ঘাটতি নয়, রাজকোষীয় ঘাটতি বলতে কী বোঝায়?" },
@@ -291,7 +223,7 @@ export const questions: Question[] = [
     explanation: { en: "Fiscal deficit is the excess of total expenditure over total receipts excluding borrowings. It indicates the government's borrowing requirement.", bn: "ঋণগ্রহণ বাদে মোট প্রাপ্তির তুলনায় মোট ব্যয় যত বেশি, সেই ব্যবধানই রাজকোষীয় ঘাটতি। এটি সরকারের ঋণগ্রহণের প্রয়োজন নির্দেশ করে।" },
     source: "Original PrepBangla question; standard Indian economics and official institutional reference.",
     status: "verified"
-  },
+  },,
   {
     id: "wbcs-econ-016", exam: "WBCS", subject: "Economy",
     question: { en: "Which of the following is generally classified as revenue expenditure in the Union Budget?", bn: "কেন্দ্রীয় বাজেটে নিচের কোনটি সাধারণত রাজস্ব ব্যয় হিসেবে গণ্য হয়?" },
@@ -305,7 +237,7 @@ export const questions: Question[] = [
     explanation: { en: "Interest payments are revenue expenditure because they do not directly create a government asset. Infrastructure construction generally falls under capital expenditure.", bn: "সুদের অর্থপ্রদান রাজস্ব ব্যয়, কারণ এটি সরাসরি সরকারি সম্পদ সৃষ্টি করে না। অবকাঠামো নির্মাণ সাধারণত মূলধনী ব্যয়ের অন্তর্ভুক্ত।" },
     source: "Original PrepBangla question; standard Indian economics and official institutional reference.",
     status: "verified"
-  },
+  },,
   {
     id: "wbcs-econ-017", exam: "WBCS", subject: "Economy",
     question: { en: "Which measure is most directly used by a central bank to signal a change in its monetary policy stance in India?", bn: "ভারতে মুদ্রানীতির অবস্থানে পরিবর্তনের সংকেত দিতে কেন্দ্রীয় ব্যাংক কোন উপকরণটি সরাসরি ব্যবহার করে?" },
@@ -319,7 +251,7 @@ export const questions: Question[] = [
     explanation: { en: "The policy repo rate is a key policy rate announced by the RBI's Monetary Policy Committee and is central to the monetary policy framework.", bn: "নীতিগত রেপো হার RBI-র মুদ্রানীতি কমিটি ঘোষিত একটি গুরুত্বপূর্ণ হার এবং ভারতের মুদ্রানীতি কাঠামোর কেন্দ্রীয় উপকরণ।" },
     source: "Original PrepBangla question; standard Indian economics and official institutional reference.",
     status: "verified"
-  },
+  },,
   {
     id: "wbcs-econ-018", exam: "WBCS", subject: "Economy",
     question: { en: "If the RBI increases the Cash Reserve Ratio (CRR), banks generally have to:", bn: "RBI নগদ রিজার্ভ অনুপাত (CRR) বাড়ালে সাধারণত ব্যাঙ্কগুলিকে কী করতে হয়?" },
@@ -333,7 +265,7 @@ export const questions: Question[] = [
     explanation: { en: "CRR is the prescribed share of a bank's Net Demand and Time Liabilities that it must maintain as cash balance with the RBI. A higher CRR can reduce lendable resources.", bn: "CRR হলো ব্যাঙ্কের নিট চাহিদা ও মেয়াদি দায়ের নির্দিষ্ট অংশ, যা RBI-র কাছে নগদ হিসেবে রাখতে হয়। CRR বাড়লে ঋণ দেওয়ার মতো তহবিল কমতে পারে।" },
     source: "Original PrepBangla question; standard Indian economics and official institutional reference.",
     status: "verified"
-  },
+  },,
   {
     id: "wbcs-econ-019", exam: "WBCS", subject: "Economy",
     question: { en: "Which institution is primarily responsible for regulating the securities market in India?", bn: "ভারতে সিকিউরিটিজ বাজার নিয়ন্ত্রণের প্রধান দায়িত্ব কোন প্রতিষ্ঠানের?" },
@@ -347,7 +279,7 @@ export const questions: Question[] = [
     explanation: { en: "SEBI is the statutory regulator of India's securities market. RBI regulates banks and specified financial activities, not the securities market as a whole.", bn: "SEBI ভারতের সিকিউরিটিজ বাজারের বিধিবদ্ধ নিয়ন্ত্রক। RBI ব্যাঙ্ক ও নির্দিষ্ট আর্থিক কার্যক্রম নিয়ন্ত্রণ করে, সমগ্র সিকিউরিটিজ বাজার নয়।" },
     source: "Original PrepBangla question; standard Indian economics and official institutional reference.",
     status: "verified"
-  },
+  },,
   {
     id: "wbcs-econ-020", exam: "WBCS", subject: "Economy",
     question: { en: "Which of the following is a primary function of the National Bank for Agriculture and Rural Development (NABARD)?", bn: "জাতীয় কৃষি ও গ্রামীণ উন্নয়ন ব্যাঙ্ক (NABARD)-এর প্রধান কাজ কোনটি?" },
@@ -363,144 +295,4 @@ export const questions: Question[] = [
     status: "verified"
   }
 ,
-  {
-    id: "wbcs-econ-021", exam: "WBCS", subject: "Economy",
-    question: { en: "Which of the following is counted in India's current account of the Balance of Payments?", bn: "ভারতের লেনদেনের ভারসাম্যের চলতি হিসাবে কোনটি অন্তর্ভুক্ত হয়?" },
-    options: [
-      { en: "Foreign direct investment", bn: "প্রত্যক্ষ বিদেশি বিনিয়োগ" },
-      { en: "Trade in goods and services", bn: "পণ্য ও পরিষেবার বাণিজ্য" },
-      { en: "External commercial borrowing", bn: "বৈদেশিক বাণিজ্যিক ঋণ" },
-      { en: "Purchase of foreign government bonds", bn: "বিদেশি সরকারি বন্ড ক্রয়" }
-    ],
-    answer: 1,
-    explanation: { en: "The current account records trade in goods and services, primary income and secondary income. FDI and borrowing are recorded in the financial account.", bn: "চলতি হিসাবে পণ্য ও পরিষেবার বাণিজ্য, প্রাথমিক আয় ও গৌণ আয় নথিভুক্ত হয়। FDI ও ঋণ আর্থিক হিসাবে নথিভুক্ত হয়।" },
-    source: "Original PrepBangla question; standard economics and institutional reference.",
-    status: "verified"
-  },
-  {
-    id: "wbcs-econ-022", exam: "WBCS", subject: "Economy",
-    question: { en: "A depreciation of the Indian rupee, other things being equal, tends to make Indian exports:", bn: "অন্যান্য বিষয় অপরিবর্তিত থাকলে ভারতীয় টাকার অবমূল্যায়নে ভারতের রপ্তানি সাধারণত কী হয়?" },
-    options: [
-      { en: "More expensive for foreign buyers", bn: "বিদেশি ক্রেতাদের কাছে বেশি দামি" },
-      { en: "Cheaper for foreign buyers", bn: "বিদেশি ক্রেতাদের কাছে তুলনামূলক সস্তা" },
-      { en: "Unaffected in every case", bn: "সবক্ষেত্রেই অপরিবর্তিত" },
-      { en: "Legally prohibited", bn: "আইনত নিষিদ্ধ" }
-    ],
-    answer: 1,
-    explanation: { en: "When the rupee depreciates, a given rupee price converts into fewer units of foreign currency, which can make Indian goods cheaper for foreign buyers, other things equal.", bn: "টাকার অবমূল্যায়নে একই রুপির দাম বিদেশি মুদ্রায় কম হয়। অন্যান্য বিষয় অপরিবর্তিত থাকলে ভারতীয় পণ্য বিদেশি ক্রেতাদের কাছে সস্তা হতে পারে।" },
-    source: "Original PrepBangla question; standard economics and institutional reference.",
-    status: "verified"
-  },
-  {
-    id: "wbcs-econ-023", exam: "WBCS", subject: "Economy",
-    question: { en: "Which organisation publishes the World Economic Outlook?", bn: "World Economic Outlook কোন সংস্থা প্রকাশ করে?" },
-    options: [
-      { en: "World Bank", bn: "বিশ্ব ব্যাঙ্ক" },
-      { en: "International Monetary Fund", bn: "আন্তর্জাতিক মুদ্রা তহবিল" },
-      { en: "World Trade Organization", bn: "বিশ্ব বাণিজ্য সংস্থা" },
-      { en: "Asian Development Bank", bn: "এশীয় উন্নয়ন ব্যাঙ্ক" }
-    ],
-    answer: 1,
-    explanation: { en: "The International Monetary Fund publishes the World Economic Outlook, which analyses global economic developments and projections.", bn: "আন্তর্জাতিক মুদ্রা তহবিল World Economic Outlook প্রকাশ করে। এতে বিশ্ব অর্থনীতির পরিস্থিতি ও পূর্বাভাস বিশ্লেষণ করা হয়।" },
-    source: "Original PrepBangla question; standard economics and institutional reference.",
-    status: "verified"
-  },
-  {
-    id: "wbcs-econ-024", exam: "WBCS", subject: "Economy",
-    question: { en: "The Human Development Index (HDI) is published by:", bn: "মানব উন্নয়ন সূচক (HDI) প্রকাশ করে কোন সংস্থা?" },
-    options: [
-      { en: "UNDP", bn: "জাতিসংঘ উন্নয়ন কর্মসূচি" },
-      { en: "UNESCO", bn: "ইউনেস্কো" },
-      { en: "World Trade Organization", bn: "বিশ্ব বাণিজ্য সংস্থা" },
-      { en: "International Labour Organization", bn: "আন্তর্জাতিক শ্রম সংস্থা" }
-    ],
-    answer: 0,
-    explanation: { en: "The United Nations Development Programme publishes the Human Development Report, which presents the HDI.", bn: "জাতিসংঘ উন্নয়ন কর্মসূচি মানব উন্নয়ন প্রতিবেদন প্রকাশ করে, যেখানে HDI উপস্থাপিত হয়।" },
-    source: "Original PrepBangla question; standard economics and institutional reference.",
-    status: "verified"
-  },
-  {
-    id: "wbcs-econ-025", exam: "WBCS", subject: "Economy",
-    question: { en: "Which three dimensions are used in the Human Development Index?", bn: "মানব উন্নয়ন সূচকে কোন তিনটি মাত্রা ব্যবহৃত হয়?" },
-    options: [
-      { en: "Health, education and standard of living", bn: "স্বাস্থ্য, শিক্ষা ও জীবনযাত্রার মান" },
-      { en: "Employment, exports and inflation", bn: "কর্মসংস্থান, রপ্তানি ও মুদ্রাস্ফীতি" },
-      { en: "Population, land and climate", bn: "জনসংখ্যা, ভূমি ও জলবায়ু" },
-      { en: "Savings, investment and taxation", bn: "সঞ্চয়, বিনিয়োগ ও কর" }
-    ],
-    answer: 0,
-    explanation: { en: "HDI combines health (life expectancy), education and standard of living (gross national income per capita).", bn: "HDI-তে স্বাস্থ্য (জীবন প্রত্যাশা), শিক্ষা এবং জীবনযাত্রার মান (মাথাপিছু মোট জাতীয় আয়) একত্রে বিবেচিত হয়।" },
-    source: "Original PrepBangla question; standard economics and institutional reference.",
-    status: "verified"
-  },
-  {
-    id: "wbcs-econ-026", exam: "WBCS", subject: "Economy",
-    question: { en: "In national income accounting, transfer payments are generally excluded from national income because they:", bn: "জাতীয় আয়ের হিসাব থেকে স্থানান্তর প্রদান সাধারণত বাদ থাকে কেন?" },
-    options: [
-      { en: "Are always paid in foreign currency", bn: "সর্বদা বিদেশি মুদ্রায় দেওয়া হয়" },
-      { en: "Are not payments for current production of goods or services", bn: "চলতি পণ্য বা পরিষেবা উৎপাদনের বিনিময়ে দেওয়া হয় না" },
-      { en: "Are made only by private companies", bn: "শুধু বেসরকারি সংস্থা দেয়" },
-      { en: "Are included in exports", bn: "রপ্তানির অন্তর্ভুক্ত" }
-    ],
-    answer: 1,
-    explanation: { en: "Transfer payments such as pensions or certain benefits are not factor payments for current production, so they are not directly counted as national income.", bn: "পেনশন বা কিছু ভাতার মতো স্থানান্তর প্রদান চলতি উৎপাদনের জন্য উপাদান আয় নয়। তাই এগুলি সরাসরি জাতীয় আয়ে গণনা করা হয় না।" },
-    source: "Original PrepBangla question; standard economics and institutional reference.",
-    status: "verified"
-  },
-  {
-    id: "wbcs-econ-027", exam: "WBCS", subject: "Economy",
-    question: { en: "Per capita income is calculated by dividing national income by:", bn: "মাথাপিছু আয় গণনা করতে জাতীয় আয়কে কী দিয়ে ভাগ করা হয়?" },
-    options: [
-      { en: "Total geographical area", bn: "মোট ভৌগোলিক আয়তন" },
-      { en: "Total population", bn: "মোট জনসংখ্যা" },
-      { en: "Number of employed persons only", bn: "শুধু কর্মরত ব্যক্তির সংখ্যা" },
-      { en: "Total households", bn: "মোট পরিবার" }
-    ],
-    answer: 1,
-    explanation: { en: "Per capita income is an average obtained by dividing an income aggregate by the population. It does not show how income is distributed.", bn: "মাথাপিছু আয় হলো জাতীয় আয়ের মতো আয়-সমষ্টিকে জনসংখ্যা দিয়ে ভাগ করে পাওয়া গড়। এটি আয়ের বণ্টন দেখায় না।" },
-    source: "Original PrepBangla question; standard economics and institutional reference.",
-    status: "verified"
-  },
-  {
-    id: "wbcs-econ-028", exam: "WBCS", subject: "Economy",
-    question: { en: "Which of the following best describes a progressive tax?", bn: "প্রগতিশীল করের সঠিক বর্ণনা কোনটি?" },
-    options: [
-      { en: "The tax rate falls as taxable income rises", bn: "করযোগ্য আয় বাড়লে করের হার কমে" },
-      { en: "The same fixed amount is paid by every taxpayer", bn: "প্রত্যেক করদাতা একই নির্দিষ্ট অঙ্ক দেন" },
-      { en: "The average tax rate rises as taxable income rises", bn: "করযোগ্য আয় বাড়লে গড় করের হার বাড়ে" },
-      { en: "Only goods are taxed", bn: "শুধু পণ্যের উপর কর আরোপিত হয়" }
-    ],
-    answer: 2,
-    explanation: { en: "Under a progressive tax structure, the average tax rate increases as the tax base or income rises. This differs from a proportional tax.", bn: "প্রগতিশীল করব্যবস্থায় করযোগ্য আয় বাড়ার সঙ্গে গড় করের হারও বাড়ে। এটি সমানুপাতিক করের থেকে আলাদা।" },
-    source: "Original PrepBangla question; standard economics and institutional reference.",
-    status: "verified"
-  },
-  {
-    id: "wbcs-econ-029", exam: "WBCS", subject: "Economy",
-    question: { en: "Which of the following is a non-tax revenue receipt of the government?", bn: "সরকারের কর-বহির্ভূত রাজস্ব প্রাপ্তির উদাহরণ কোনটি?" },
-    options: [
-      { en: "Personal income tax", bn: "ব্যক্তিগত আয়কর" },
-      { en: "Corporation tax", bn: "কর্পোরেশন কর" },
-      { en: "Dividends received from public sector enterprises", bn: "রাষ্ট্রায়ত্ত সংস্থা থেকে প্রাপ্ত লভ্যাংশ" },
-      { en: "Goods and Services Tax", bn: "পণ্য ও পরিষেবা কর" }
-    ],
-    answer: 2,
-    explanation: { en: "Dividends and profits received by the government are non-tax revenue. Income tax, corporation tax and GST are tax revenues.", bn: "সরকারের প্রাপ্ত লভ্যাংশ ও মুনাফা কর-বহির্ভূত রাজস্ব। আয়কর, কর্পোরেশন কর ও GST কর রাজস্ব।" },
-    source: "Original PrepBangla question; standard economics and institutional reference.",
-    status: "verified"
-  },
-  {
-    id: "wbcs-econ-030", exam: "WBCS", subject: "Economy",
-    question: { en: "Which statement about the repo rate is correct?", bn: "রেপো হার সম্পর্কে কোন বক্তব্যটি সঠিক?" },
-    options: [
-      { en: "It is the rate at which RBI lends short-term funds to eligible banks against securities", bn: "এটি সেই হার, যে হারে RBI সিকিউরিটিজের বিপরীতে যোগ্য ব্যাঙ্ককে স্বল্পমেয়াদি ঋণ দেয়" },
-      { en: "It is the interest rate banks pay on all savings accounts", bn: "সব সঞ্চয়ী আমানতে ব্যাঙ্ক যে সুদ দেয়" },
-      { en: "It is the rate charged by SEBI on stock trades", bn: "শেয়ার লেনদেনে SEBI যে হার ধার্য করে" },
-      { en: "It is the rate of income tax", bn: "আয়করের হার" }
-    ],
-    answer: 0,
-    explanation: { en: "The repo rate is the policy rate at which the RBI provides liquidity to eligible counterparties against eligible collateral under the applicable framework.", bn: "প্রযোজ্য কাঠামো অনুযায়ী যোগ্য জামানতের বিপরীতে RBI যে নীতিগত হারে যোগ্য পক্ষকে তারল্য দেয়, সেটিই রেপো হার।" },
-    source: "Original PrepBangla question; standard economics and institutional reference.",
-    status: "verified"
-  }
 ];
