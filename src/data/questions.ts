@@ -362,4 +362,145 @@ export const questions: Question[] = [
     source: "Original PrepBangla question; standard Indian economics and official institutional reference.",
     status: "verified"
   }
+,
+  {
+    id: "wbcs-econ-021", exam: "WBCS", subject: "Economy",
+    question: { en: "Which of the following is counted in India's current account of the Balance of Payments?", bn: "ভারতের লেনদেনের ভারসাম্যের চলতি হিসাবে কোনটি অন্তর্ভুক্ত হয়?" },
+    options: [
+      { en: "Foreign direct investment", bn: "প্রত্যক্ষ বিদেশি বিনিয়োগ" },
+      { en: "Trade in goods and services", bn: "পণ্য ও পরিষেবার বাণিজ্য" },
+      { en: "External commercial borrowing", bn: "বৈদেশিক বাণিজ্যিক ঋণ" },
+      { en: "Purchase of foreign government bonds", bn: "বিদেশি সরকারি বন্ড ক্রয়" }
+    ],
+    answer: 1,
+    explanation: { en: "The current account records trade in goods and services, primary income and secondary income. FDI and borrowing are recorded in the financial account.", bn: "চলতি হিসাবে পণ্য ও পরিষেবার বাণিজ্য, প্রাথমিক আয় ও গৌণ আয় নথিভুক্ত হয়। FDI ও ঋণ আর্থিক হিসাবে নথিভুক্ত হয়।" },
+    source: "Original PrepBangla question; standard economics and institutional reference.",
+    status: "verified"
+  },
+  {
+    id: "wbcs-econ-022", exam: "WBCS", subject: "Economy",
+    question: { en: "A depreciation of the Indian rupee, other things being equal, tends to make Indian exports:", bn: "অন্যান্য বিষয় অপরিবর্তিত থাকলে ভারতীয় টাকার অবমূল্যায়নে ভারতের রপ্তানি সাধারণত কী হয়?" },
+    options: [
+      { en: "More expensive for foreign buyers", bn: "বিদেশি ক্রেতাদের কাছে বেশি দামি" },
+      { en: "Cheaper for foreign buyers", bn: "বিদেশি ক্রেতাদের কাছে তুলনামূলক সস্তা" },
+      { en: "Unaffected in every case", bn: "সবক্ষেত্রেই অপরিবর্তিত" },
+      { en: "Legally prohibited", bn: "আইনত নিষিদ্ধ" }
+    ],
+    answer: 1,
+    explanation: { en: "When the rupee depreciates, a given rupee price converts into fewer units of foreign currency, which can make Indian goods cheaper for foreign buyers, other things equal.", bn: "টাকার অবমূল্যায়নে একই রুপির দাম বিদেশি মুদ্রায় কম হয়। অন্যান্য বিষয় অপরিবর্তিত থাকলে ভারতীয় পণ্য বিদেশি ক্রেতাদের কাছে সস্তা হতে পারে।" },
+    source: "Original PrepBangla question; standard economics and institutional reference.",
+    status: "verified"
+  },
+  {
+    id: "wbcs-econ-023", exam: "WBCS", subject: "Economy",
+    question: { en: "Which organisation publishes the World Economic Outlook?", bn: "World Economic Outlook কোন সংস্থা প্রকাশ করে?" },
+    options: [
+      { en: "World Bank", bn: "বিশ্ব ব্যাঙ্ক" },
+      { en: "International Monetary Fund", bn: "আন্তর্জাতিক মুদ্রা তহবিল" },
+      { en: "World Trade Organization", bn: "বিশ্ব বাণিজ্য সংস্থা" },
+      { en: "Asian Development Bank", bn: "এশীয় উন্নয়ন ব্যাঙ্ক" }
+    ],
+    answer: 1,
+    explanation: { en: "The International Monetary Fund publishes the World Economic Outlook, which analyses global economic developments and projections.", bn: "আন্তর্জাতিক মুদ্রা তহবিল World Economic Outlook প্রকাশ করে। এতে বিশ্ব অর্থনীতির পরিস্থিতি ও পূর্বাভাস বিশ্লেষণ করা হয়।" },
+    source: "Original PrepBangla question; standard economics and institutional reference.",
+    status: "verified"
+  },
+  {
+    id: "wbcs-econ-024", exam: "WBCS", subject: "Economy",
+    question: { en: "The Human Development Index (HDI) is published by:", bn: "মানব উন্নয়ন সূচক (HDI) প্রকাশ করে কোন সংস্থা?" },
+    options: [
+      { en: "UNDP", bn: "জাতিসংঘ উন্নয়ন কর্মসূচি" },
+      { en: "UNESCO", bn: "ইউনেস্কো" },
+      { en: "World Trade Organization", bn: "বিশ্ব বাণিজ্য সংস্থা" },
+      { en: "International Labour Organization", bn: "আন্তর্জাতিক শ্রম সংস্থা" }
+    ],
+    answer: 0,
+    explanation: { en: "The United Nations Development Programme publishes the Human Development Report, which presents the HDI.", bn: "জাতিসংঘ উন্নয়ন কর্মসূচি মানব উন্নয়ন প্রতিবেদন প্রকাশ করে, যেখানে HDI উপস্থাপিত হয়।" },
+    source: "Original PrepBangla question; standard economics and institutional reference.",
+    status: "verified"
+  },
+  {
+    id: "wbcs-econ-025", exam: "WBCS", subject: "Economy",
+    question: { en: "Which three dimensions are used in the Human Development Index?", bn: "মানব উন্নয়ন সূচকে কোন তিনটি মাত্রা ব্যবহৃত হয়?" },
+    options: [
+      { en: "Health, education and standard of living", bn: "স্বাস্থ্য, শিক্ষা ও জীবনযাত্রার মান" },
+      { en: "Employment, exports and inflation", bn: "কর্মসংস্থান, রপ্তানি ও মুদ্রাস্ফীতি" },
+      { en: "Population, land and climate", bn: "জনসংখ্যা, ভূমি ও জলবায়ু" },
+      { en: "Savings, investment and taxation", bn: "সঞ্চয়, বিনিয়োগ ও কর" }
+    ],
+    answer: 0,
+    explanation: { en: "HDI combines health (life expectancy), education and standard of living (gross national income per capita).", bn: "HDI-তে স্বাস্থ্য (জীবন প্রত্যাশা), শিক্ষা এবং জীবনযাত্রার মান (মাথাপিছু মোট জাতীয় আয়) একত্রে বিবেচিত হয়।" },
+    source: "Original PrepBangla question; standard economics and institutional reference.",
+    status: "verified"
+  },
+  {
+    id: "wbcs-econ-026", exam: "WBCS", subject: "Economy",
+    question: { en: "In national income accounting, transfer payments are generally excluded from national income because they:", bn: "জাতীয় আয়ের হিসাব থেকে স্থানান্তর প্রদান সাধারণত বাদ থাকে কেন?" },
+    options: [
+      { en: "Are always paid in foreign currency", bn: "সর্বদা বিদেশি মুদ্রায় দেওয়া হয়" },
+      { en: "Are not payments for current production of goods or services", bn: "চলতি পণ্য বা পরিষেবা উৎপাদনের বিনিময়ে দেওয়া হয় না" },
+      { en: "Are made only by private companies", bn: "শুধু বেসরকারি সংস্থা দেয়" },
+      { en: "Are included in exports", bn: "রপ্তানির অন্তর্ভুক্ত" }
+    ],
+    answer: 1,
+    explanation: { en: "Transfer payments such as pensions or certain benefits are not factor payments for current production, so they are not directly counted as national income.", bn: "পেনশন বা কিছু ভাতার মতো স্থানান্তর প্রদান চলতি উৎপাদনের জন্য উপাদান আয় নয়। তাই এগুলি সরাসরি জাতীয় আয়ে গণনা করা হয় না।" },
+    source: "Original PrepBangla question; standard economics and institutional reference.",
+    status: "verified"
+  },
+  {
+    id: "wbcs-econ-027", exam: "WBCS", subject: "Economy",
+    question: { en: "Per capita income is calculated by dividing national income by:", bn: "মাথাপিছু আয় গণনা করতে জাতীয় আয়কে কী দিয়ে ভাগ করা হয়?" },
+    options: [
+      { en: "Total geographical area", bn: "মোট ভৌগোলিক আয়তন" },
+      { en: "Total population", bn: "মোট জনসংখ্যা" },
+      { en: "Number of employed persons only", bn: "শুধু কর্মরত ব্যক্তির সংখ্যা" },
+      { en: "Total households", bn: "মোট পরিবার" }
+    ],
+    answer: 1,
+    explanation: { en: "Per capita income is an average obtained by dividing an income aggregate by the population. It does not show how income is distributed.", bn: "মাথাপিছু আয় হলো জাতীয় আয়ের মতো আয়-সমষ্টিকে জনসংখ্যা দিয়ে ভাগ করে পাওয়া গড়। এটি আয়ের বণ্টন দেখায় না।" },
+    source: "Original PrepBangla question; standard economics and institutional reference.",
+    status: "verified"
+  },
+  {
+    id: "wbcs-econ-028", exam: "WBCS", subject: "Economy",
+    question: { en: "Which of the following best describes a progressive tax?", bn: "প্রগতিশীল করের সঠিক বর্ণনা কোনটি?" },
+    options: [
+      { en: "The tax rate falls as taxable income rises", bn: "করযোগ্য আয় বাড়লে করের হার কমে" },
+      { en: "The same fixed amount is paid by every taxpayer", bn: "প্রত্যেক করদাতা একই নির্দিষ্ট অঙ্ক দেন" },
+      { en: "The average tax rate rises as taxable income rises", bn: "করযোগ্য আয় বাড়লে গড় করের হার বাড়ে" },
+      { en: "Only goods are taxed", bn: "শুধু পণ্যের উপর কর আরোপিত হয়" }
+    ],
+    answer: 2,
+    explanation: { en: "Under a progressive tax structure, the average tax rate increases as the tax base or income rises. This differs from a proportional tax.", bn: "প্রগতিশীল করব্যবস্থায় করযোগ্য আয় বাড়ার সঙ্গে গড় করের হারও বাড়ে। এটি সমানুপাতিক করের থেকে আলাদা।" },
+    source: "Original PrepBangla question; standard economics and institutional reference.",
+    status: "verified"
+  },
+  {
+    id: "wbcs-econ-029", exam: "WBCS", subject: "Economy",
+    question: { en: "Which of the following is a non-tax revenue receipt of the government?", bn: "সরকারের কর-বহির্ভূত রাজস্ব প্রাপ্তির উদাহরণ কোনটি?" },
+    options: [
+      { en: "Personal income tax", bn: "ব্যক্তিগত আয়কর" },
+      { en: "Corporation tax", bn: "কর্পোরেশন কর" },
+      { en: "Dividends received from public sector enterprises", bn: "রাষ্ট্রায়ত্ত সংস্থা থেকে প্রাপ্ত লভ্যাংশ" },
+      { en: "Goods and Services Tax", bn: "পণ্য ও পরিষেবা কর" }
+    ],
+    answer: 2,
+    explanation: { en: "Dividends and profits received by the government are non-tax revenue. Income tax, corporation tax and GST are tax revenues.", bn: "সরকারের প্রাপ্ত লভ্যাংশ ও মুনাফা কর-বহির্ভূত রাজস্ব। আয়কর, কর্পোরেশন কর ও GST কর রাজস্ব।" },
+    source: "Original PrepBangla question; standard economics and institutional reference.",
+    status: "verified"
+  },
+  {
+    id: "wbcs-econ-030", exam: "WBCS", subject: "Economy",
+    question: { en: "Which statement about the repo rate is correct?", bn: "রেপো হার সম্পর্কে কোন বক্তব্যটি সঠিক?" },
+    options: [
+      { en: "It is the rate at which RBI lends short-term funds to eligible banks against securities", bn: "এটি সেই হার, যে হারে RBI সিকিউরিটিজের বিপরীতে যোগ্য ব্যাঙ্ককে স্বল্পমেয়াদি ঋণ দেয়" },
+      { en: "It is the interest rate banks pay on all savings accounts", bn: "সব সঞ্চয়ী আমানতে ব্যাঙ্ক যে সুদ দেয়" },
+      { en: "It is the rate charged by SEBI on stock trades", bn: "শেয়ার লেনদেনে SEBI যে হার ধার্য করে" },
+      { en: "It is the rate of income tax", bn: "আয়করের হার" }
+    ],
+    answer: 0,
+    explanation: { en: "The repo rate is the policy rate at which the RBI provides liquidity to eligible counterparties against eligible collateral under the applicable framework.", bn: "প্রযোজ্য কাঠামো অনুযায়ী যোগ্য জামানতের বিপরীতে RBI যে নীতিগত হারে যোগ্য পক্ষকে তারল্য দেয়, সেটিই রেপো হার।" },
+    source: "Original PrepBangla question; standard economics and institutional reference.",
+    status: "verified"
+  }
 ];
