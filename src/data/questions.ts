@@ -221,4 +221,145 @@ export const questions: Question[] = [
     source: "Original PrepBangla question; RBI monetary policy instruments reference.",
     status: "verified"
   }
+,
+  {
+    id: "wbcs-econ-011", exam: "WBCS", subject: "Economy",
+    question: { en: "Which of the following is a direct tax in India?", bn: "ভারতে নিচের কোনটি প্রত্যক্ষ কর?" },
+    options: [
+      { en: "Goods and Services Tax", bn: "পণ্য ও পরিষেবা কর" },
+      { en: "Customs duty", bn: "শুল্ক" },
+      { en: "Personal income tax", bn: "ব্যক্তিগত আয়কর" },
+      { en: "Excise duty", bn: "আবগারি শুল্ক" }
+    ],
+    answer: 2,
+    explanation: { en: "A direct tax is imposed directly on the income or wealth of the person who bears its burden. Personal income tax is a direct tax.", bn: "প্রত্যক্ষ কর সেই ব্যক্তি বা প্রতিষ্ঠানের আয় বা সম্পদের উপর সরাসরি আরোপিত হয়, যিনি করের বোঝা বহন করেন। ব্যক্তিগত আয়কর প্রত্যক্ষ কর।" },
+    source: "Original PrepBangla question; standard Indian economics and official institutional reference.",
+    status: "verified"
+  },
+  {
+    id: "wbcs-econ-012", exam: "WBCS", subject: "Economy",
+    question: { en: "Goods and Services Tax (GST) in India is best described as:", bn: "ভারতে পণ্য ও পরিষেবা কর (GST)-কে কীভাবে বর্ণনা করা যায়?" },
+    options: [
+      { en: "A tax on income", bn: "আয়ের উপর কর" },
+      { en: "A destination-based indirect tax on supply", bn: "সরবরাহের উপর গন্তব্যভিত্তিক পরোক্ষ কর" },
+      { en: "A tax only on imports", bn: "শুধু আমদানির উপর কর" },
+      { en: "A tax on agricultural land", bn: "কৃষিজমির উপর কর" }
+    ],
+    answer: 1,
+    explanation: { en: "GST is a destination-based indirect tax levied on the supply of goods and services, subject to statutory provisions and exemptions.", bn: "GST হলো পণ্য ও পরিষেবার সরবরাহের উপর আরোপিত গন্তব্যভিত্তিক পরোক্ষ কর; আইন অনুযায়ী কিছু ছাড় ও বিশেষ বিধান রয়েছে।" },
+    source: "Original PrepBangla question; standard Indian economics and official institutional reference.",
+    status: "verified"
+  },
+  {
+    id: "wbcs-econ-013", exam: "WBCS", subject: "Economy",
+    question: { en: "Which body recommends the distribution of the net proceeds of certain taxes between the Union and the States?", bn: "কেন্দ্র ও রাজ্যের মধ্যে নির্দিষ্ট করের নিট আয় বণ্টনের সুপারিশ করে কোন সংস্থা?" },
+    options: [
+      { en: "Finance Commission", bn: "অর্থ কমিশন" },
+      { en: "Election Commission", bn: "নির্বাচন কমিশন" },
+      { en: "NITI Aayog", bn: "নীতি আয়োগ" },
+      { en: "Goods and Services Tax Council", bn: "জিএসটি কাউন্সিল" }
+    ],
+    answer: 0,
+    explanation: { en: "Article 280 provides for a Finance Commission, which recommends the distribution of tax proceeds between the Union and States and grants-in-aid principles.", bn: "সংবিধানের ২৮০ অনুচ্ছেদে অর্থ কমিশনের বিধান রয়েছে। এটি কেন্দ্র ও রাজ্যের মধ্যে করের আয় বণ্টন এবং অনুদান-সহায়তার নীতি সম্পর্কে সুপারিশ করে।" },
+    source: "Original PrepBangla question; standard Indian economics and official institutional reference.",
+    status: "verified"
+  },
+  {
+    id: "wbcs-econ-014", exam: "WBCS", subject: "Economy",
+    question: { en: "The annual financial statement of the Government of India is referred to in which Article of the Constitution?", bn: "ভারত সরকারের বার্ষিক আর্থিক বিবৃতি সংবিধানের কোন অনুচ্ছেদে উল্লেখিত?" },
+    options: [
+      { en: "Article 110", bn: "অনুচ্ছেদ ১১০" },
+      { en: "Article 112", bn: "অনুচ্ছেদ ১১২" },
+      { en: "Article 123", bn: "অনুচ্ছেদ ১২৩" },
+      { en: "Article 280", bn: "অনুচ্ছেদ ২৮০" }
+    ],
+    answer: 1,
+    explanation: { en: "Article 112 requires the President to cause an annual financial statement of the estimated receipts and expenditure of the Government of India to be laid before both Houses of Parliament.", bn: "১১২ অনুচ্ছেদ অনুযায়ী রাষ্ট্রপতি ভারত সরকারের সম্ভাব্য আয় ও ব্যয়ের বার্ষিক আর্থিক বিবৃতি সংসদের উভয় কক্ষে পেশ করার ব্যবস্থা করেন।" },
+    source: "Original PrepBangla question; standard Indian economics and official institutional reference.",
+    status: "verified"
+  },
+  {
+    id: "wbcs-econ-015", exam: "WBCS", subject: "Economy",
+    question: { en: "A fiscal deficit broadly represents:", bn: "সাধারণভাবে রাজস্ব ঘাটতি নয়, রাজকোষীয় ঘাটতি বলতে কী বোঝায়?" },
+    options: [
+      { en: "Revenue expenditure minus revenue receipts", bn: "রাজস্ব ব্যয় থেকে রাজস্ব প্রাপ্তি বাদ" },
+      { en: "Total expenditure minus total receipts excluding borrowings", bn: "ঋণ বাদে মোট প্রাপ্তি থেকে মোট ব্যয় বাদ" },
+      { en: "Imports minus exports", bn: "আমদানি থেকে রপ্তানি বাদ" },
+      { en: "Interest payments minus tax revenue", bn: "সুদ প্রদান থেকে কর রাজস্ব বাদ" }
+    ],
+    answer: 1,
+    explanation: { en: "Fiscal deficit is the excess of total expenditure over total receipts excluding borrowings. It indicates the government's borrowing requirement.", bn: "ঋণগ্রহণ বাদে মোট প্রাপ্তির তুলনায় মোট ব্যয় যত বেশি, সেই ব্যবধানই রাজকোষীয় ঘাটতি। এটি সরকারের ঋণগ্রহণের প্রয়োজন নির্দেশ করে।" },
+    source: "Original PrepBangla question; standard Indian economics and official institutional reference.",
+    status: "verified"
+  },
+  {
+    id: "wbcs-econ-016", exam: "WBCS", subject: "Economy",
+    question: { en: "Which of the following is generally classified as revenue expenditure in the Union Budget?", bn: "কেন্দ্রীয় বাজেটে নিচের কোনটি সাধারণত রাজস্ব ব্যয় হিসেবে গণ্য হয়?" },
+    options: [
+      { en: "Construction of a new national highway", bn: "নতুন জাতীয় সড়ক নির্মাণ" },
+      { en: "Purchase of land for a railway project", bn: "রেল প্রকল্পের জন্য জমি ক্রয়" },
+      { en: "Interest payment on government debt", bn: "সরকারি ঋণের সুদ প্রদান" },
+      { en: "Construction of a government hospital building", bn: "সরকারি হাসপাতাল ভবন নির্মাণ" }
+    ],
+    answer: 2,
+    explanation: { en: "Interest payments are revenue expenditure because they do not directly create a government asset. Infrastructure construction generally falls under capital expenditure.", bn: "সুদের অর্থপ্রদান রাজস্ব ব্যয়, কারণ এটি সরাসরি সরকারি সম্পদ সৃষ্টি করে না। অবকাঠামো নির্মাণ সাধারণত মূলধনী ব্যয়ের অন্তর্ভুক্ত।" },
+    source: "Original PrepBangla question; standard Indian economics and official institutional reference.",
+    status: "verified"
+  },
+  {
+    id: "wbcs-econ-017", exam: "WBCS", subject: "Economy",
+    question: { en: "Which measure is most directly used by a central bank to signal a change in its monetary policy stance in India?", bn: "ভারতে মুদ্রানীতির অবস্থানে পরিবর্তনের সংকেত দিতে কেন্দ্রীয় ব্যাংক কোন উপকরণটি সরাসরি ব্যবহার করে?" },
+    options: [
+      { en: "Repo rate", bn: "রেপো হার" },
+      { en: "Corporate income tax rate", bn: "কর্পোরেট আয়করের হার" },
+      { en: "Minimum support price", bn: "ন্যূনতম সহায়ক মূল্য" },
+      { en: "Customs tariff", bn: "শুল্ক হার" }
+    ],
+    answer: 0,
+    explanation: { en: "The policy repo rate is a key policy rate announced by the RBI's Monetary Policy Committee and is central to the monetary policy framework.", bn: "নীতিগত রেপো হার RBI-র মুদ্রানীতি কমিটি ঘোষিত একটি গুরুত্বপূর্ণ হার এবং ভারতের মুদ্রানীতি কাঠামোর কেন্দ্রীয় উপকরণ।" },
+    source: "Original PrepBangla question; standard Indian economics and official institutional reference.",
+    status: "verified"
+  },
+  {
+    id: "wbcs-econ-018", exam: "WBCS", subject: "Economy",
+    question: { en: "If the RBI increases the Cash Reserve Ratio (CRR), banks generally have to:", bn: "RBI নগদ রিজার্ভ অনুপাত (CRR) বাড়ালে সাধারণত ব্যাঙ্কগুলিকে কী করতে হয়?" },
+    options: [
+      { en: "Keep a larger share of their Net Demand and Time Liabilities as cash balance with RBI", bn: "নিট চাহিদা ও মেয়াদি দায়ের বেশি অংশ RBI-র কাছে নগদ রাখতে" },
+      { en: "Lend all deposits to the government", bn: "সমস্ত আমানত সরকারকে ঋণ দিতে" },
+      { en: "Increase their equity capital by the same percentage", bn: "একই হারে ইকুইটি মূলধন বাড়াতে" },
+      { en: "Reduce their statutory audit frequency", bn: "বাধ্যতামূলক অডিটের সংখ্যা কমাতে" }
+    ],
+    answer: 0,
+    explanation: { en: "CRR is the prescribed share of a bank's Net Demand and Time Liabilities that it must maintain as cash balance with the RBI. A higher CRR can reduce lendable resources.", bn: "CRR হলো ব্যাঙ্কের নিট চাহিদা ও মেয়াদি দায়ের নির্দিষ্ট অংশ, যা RBI-র কাছে নগদ হিসেবে রাখতে হয়। CRR বাড়লে ঋণ দেওয়ার মতো তহবিল কমতে পারে।" },
+    source: "Original PrepBangla question; standard Indian economics and official institutional reference.",
+    status: "verified"
+  },
+  {
+    id: "wbcs-econ-019", exam: "WBCS", subject: "Economy",
+    question: { en: "Which institution is primarily responsible for regulating the securities market in India?", bn: "ভারতে সিকিউরিটিজ বাজার নিয়ন্ত্রণের প্রধান দায়িত্ব কোন প্রতিষ্ঠানের?" },
+    options: [
+      { en: "Reserve Bank of India", bn: "রিজার্ভ ব্যাঙ্ক অফ ইন্ডিয়া" },
+      { en: "Securities and Exchange Board of India", bn: "ভারতীয় সিকিউরিটিজ ও বিনিময় পর্ষদ" },
+      { en: "Insurance Regulatory and Development Authority of India", bn: "ভারতীয় বিমা নিয়ন্ত্রণ ও উন্নয়ন কর্তৃপক্ষ" },
+      { en: "NABARD", bn: "ন্যাবার্ড" }
+    ],
+    answer: 1,
+    explanation: { en: "SEBI is the statutory regulator of India's securities market. RBI regulates banks and specified financial activities, not the securities market as a whole.", bn: "SEBI ভারতের সিকিউরিটিজ বাজারের বিধিবদ্ধ নিয়ন্ত্রক। RBI ব্যাঙ্ক ও নির্দিষ্ট আর্থিক কার্যক্রম নিয়ন্ত্রণ করে, সমগ্র সিকিউরিটিজ বাজার নয়।" },
+    source: "Original PrepBangla question; standard Indian economics and official institutional reference.",
+    status: "verified"
+  },
+  {
+    id: "wbcs-econ-020", exam: "WBCS", subject: "Economy",
+    question: { en: "Which of the following is a primary function of the National Bank for Agriculture and Rural Development (NABARD)?", bn: "জাতীয় কৃষি ও গ্রামীণ উন্নয়ন ব্যাঙ্ক (NABARD)-এর প্রধান কাজ কোনটি?" },
+    options: [
+      { en: "Regulating the stock exchanges", bn: "শেয়ার বাজার নিয়ন্ত্রণ" },
+      { en: "Providing and supporting credit for agriculture and rural development", bn: "কৃষি ও গ্রামীণ উন্নয়নের জন্য ঋণ সহায়তা প্রদান" },
+      { en: "Issuing currency notes", bn: "মুদ্রা নোট জারি" },
+      { en: "Managing India's foreign exchange reserves", bn: "ভারতের বৈদেশিক মুদ্রার ভান্ডার পরিচালনা" }
+    ],
+    answer: 1,
+    explanation: { en: "NABARD is an apex development financial institution focused on credit and development support for agriculture and rural development.", bn: "NABARD কৃষি ও গ্রামীণ উন্নয়নের জন্য ঋণ এবং উন্নয়নমূলক সহায়তা প্রদানকারী শীর্ষ উন্নয়ন আর্থিক প্রতিষ্ঠান।" },
+    source: "Original PrepBangla question; standard Indian economics and official institutional reference.",
+    status: "verified"
+  }
 ];
