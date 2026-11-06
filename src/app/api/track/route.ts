@@ -1,7 +1,7 @@
 const allowed = new Set(["page_view", "test_started", "retake_started", "question_viewed", "question_answered", "test_completed"]);
 export async function POST(request: Request) {
   const url = process.env.SUPABASE_URL;
-  const key = process.env.SUPABASE_SERVICE_ROLE_KEY;
+  const key = process.env.SUPABASE_SERVICE_ROLE_KEY || process.env.SUPERBASE_SERVICE_ROLE_KEY;
   if (!url || !key) return Response.json({ ok: false, reason: "analytics_not_configured" }, { status: 503 });
   try {
     const body = await request.json();
