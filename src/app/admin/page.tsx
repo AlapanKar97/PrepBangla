@@ -7,7 +7,7 @@ type Stats = {
 };
 async function getStats(): Promise<Stats | null> {
   const url = process.env.SUPABASE_URL;
-  const key = process.env.SUPABASE_SERVICE_ROLE_KEY;
+  const key = process.env.SUPABASE_SERVICE_ROLE_KEY || process.env.SUPERBASE_SERVICE_ROLE_KEY;
   if (!url || !key) return null;
   try {
     const response = await fetch(url.replace(/\/$/, "") + "/rest/v1/rpc/admin_dashboard_stats", {
