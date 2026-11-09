@@ -698,4 +698,329 @@ export const questions: Question[] = [
     source: "Original PrepBangla question; standard economics and Indian institutional concepts.",
     status: "verified"
   }
+,
+  {
+    id: "wbcs-econ-066", exam: "WBCS", subject: "Economy",
+    question: { en: "Which institution conducts the Periodic Labour Force Survey (PLFS) in India?", bn: "ভারতে Periodic Labour Force Survey (PLFS) পরিচালনা করে কোন সংস্থা?" },
+    options: [{ en: "National Statistical Office", bn: "জাতীয় পরিসংখ্যান দপ্তর" }, { en: "Reserve Bank of India", bn: "ভারতীয় রিজার্ভ ব্যাঙ্ক" }, { en: "NITI Aayog", bn: "নীতি আয়োগ" }, { en: "Labour Bureau", bn: "শ্রম ব্যুরো" }],
+    answer: 0,
+    explanation: { en: "The National Statistical Office under the Ministry of Statistics and Programme Implementation conducts the PLFS.", bn: "পরিসংখ্যান ও কর্মসূচি বাস্তবায়ন মন্ত্রকের অধীন জাতীয় পরিসংখ্যান দপ্তর PLFS পরিচালনা করে।" },
+    source: "Original PrepBangla practice question; concept checked against standard economics and Indian official institutional material. Not represented as a verbatim PYQ.",
+    status: "verified"
+  },
+  {
+    id: "wbcs-econ-067", exam: "WBCS", subject: "Economy",
+    question: { en: "The worker-population ratio measures:", bn: "কর্মী-জনসংখ্যা অনুপাত কী পরিমাপ করে?" },
+    options: [{ en: "Employed persons as a proportion of the population", bn: "জনসংখ্যার মধ্যে কর্মরত ব্যক্তির অনুপাত" }, { en: "Unemployed persons as a proportion of the labour force", bn: "শ্রমশক্তির মধ্যে বেকার ব্যক্তির অনুপাত" }, { en: "Vacancies per firm", bn: "প্রতি প্রতিষ্ঠানে শূন্যপদ" }, { en: "Wages divided by output", bn: "উৎপাদন দিয়ে মজুরি ভাগ" }],
+    answer: 0,
+    explanation: { en: "The worker-population ratio is the proportion of employed persons in the population, for the specified age group and reference period.", bn: "নির্দিষ্ট বয়সগোষ্ঠী ও সময়কালে মোট জনসংখ্যার মধ্যে কর্মরত ব্যক্তিদের অনুপাতই কর্মী-জনসংখ্যা অনুপাত।" },
+    source: "Original PrepBangla practice question; concept checked against standard economics and Indian official institutional material. Not represented as a verbatim PYQ.",
+    status: "verified"
+  },
+  {
+    id: "wbcs-econ-068", exam: "WBCS", subject: "Economy",
+    question: { en: "Which is an example of structural unemployment?", bn: "কাঠামোগত বেকারত্বের উদাহরণ কোনটি?" },
+    options: [{ en: "Workers' skills do not match available jobs after technological change", bn: "প্রযুক্তিগত পরিবর্তনের পর শ্রমিকের দক্ষতার সঙ্গে উপলব্ধ কাজের মিল না থাকা" }, { en: "A worker is briefly between two jobs", bn: "দুটি চাকরির মাঝখানে সাময়িক বিরতি" }, { en: "A shop closes for a weekly holiday", bn: "সাপ্তাহিক ছুটিতে দোকান বন্ধ" }, { en: "Demand for labour rises during harvest", bn: "ফসল কাটার সময় শ্রমের চাহিদা বৃদ্ধি" }],
+    answer: 0,
+    explanation: { en: "Structural unemployment arises from a mismatch between workers' skills or location and the jobs available, often after changes in technology or industry.", bn: "প্রযুক্তি বা শিল্পের পরিবর্তনের ফলে শ্রমিকের দক্ষতা বা অবস্থানের সঙ্গে উপলব্ধ কাজের অমিল হলে কাঠামোগত বেকারত্ব হয়।" },
+    source: "Original PrepBangla practice question; concept checked against standard economics and Indian official institutional material. Not represented as a verbatim PYQ.",
+    status: "verified"
+  },
+  {
+    id: "wbcs-econ-069", exam: "WBCS", subject: "Economy",
+    question: { en: "Which of the following is a feature of the informal sector?", bn: "অনানুষ্ঠানিক ক্ষেত্রের বৈশিষ্ট্য কোনটি?" },
+    options: [{ en: "Limited formal employment protection and social security coverage", bn: "আনুষ্ঠানিক কর্মসংস্থান সুরক্ষা ও সামাজিক সুরক্ষার সীমিত আওতা" }, { en: "Universal written contracts and full statutory benefits", bn: "সবার লিখিত চুক্তি ও পূর্ণ আইনগত সুবিধা" }, { en: "All workers are government employees", bn: "সব শ্রমিক সরকারি কর্মচারী" }, { en: "Production only for export", bn: "শুধু রপ্তানির জন্য উৎপাদন" }],
+    answer: 0,
+    explanation: { en: "Informal work often lacks some formal protections and social security, though definitions and coverage vary by statistical and legal context.", bn: "অনানুষ্ঠানিক কাজে অনেক সময় আনুষ্ঠানিক সুরক্ষা ও সামাজিক নিরাপত্তার কিছু সুবিধা থাকে না; তবে পরিসংখ্যান ও আইনি সংজ্ঞা ভিন্ন হতে পারে।" },
+    source: "Original PrepBangla practice question; concept checked against standard economics and Indian official institutional material. Not represented as a verbatim PYQ.",
+    status: "verified"
+  },
+  {
+    id: "wbcs-econ-070", exam: "WBCS", subject: "Economy",
+    question: { en: "The main purpose of the Mahatma Gandhi National Rural Employment Guarantee Act is to:", bn: "মহাত্মা গান্ধী জাতীয় গ্রামীণ কর্মসংস্থান নিশ্চয়তা আইনের প্রধান উদ্দেশ্য কী?" },
+    options: [{ en: "Provide a statutory wage-employment guarantee to rural households subject to the Act", bn: "আইন অনুযায়ী গ্রামীণ পরিবারকে মজুরিভিত্তিক কাজের বিধিবদ্ধ নিশ্চয়তা দেওয়া" }, { en: "Provide a guaranteed urban corporate job", bn: "শহরে কর্পোরেট চাকরির নিশ্চয়তা" }, { en: "Replace all state welfare schemes", bn: "সব রাজ্য কল্যাণ প্রকল্পের বিকল্প হওয়া" }, { en: "Offer unconditional cash to every citizen", bn: "প্রত্যেক নাগরিককে নিঃশর্ত নগদ প্রদান" }],
+    answer: 0,
+    explanation: { en: "MGNREGA provides a legal guarantee of up to 100 days of unskilled manual wage employment in a financial year to eligible rural households that demand work.", bn: "MGNREGA-তে কাজের আবেদনকারী যোগ্য গ্রামীণ পরিবারকে অর্থবছরে সর্বোচ্চ ১০০ দিনের অদক্ষ কায়িক মজুরি-ভিত্তিক কাজের আইনি নিশ্চয়তা দেওয়া হয়েছে।" },
+    source: "Original PrepBangla practice question; concept checked against standard economics and Indian official institutional material. Not represented as a verbatim PYQ.",
+    status: "verified"
+  },
+  {
+    id: "wbcs-econ-071", exam: "WBCS", subject: "Economy",
+    question: { en: "Which institution is the apex development bank for agriculture and rural development in India?", bn: "ভারতে কৃষি ও গ্রামীণ উন্নয়নের শীর্ষ উন্নয়ন ব্যাঙ্ক কোনটি?" },
+    options: [{ en: "NABARD", bn: "NABARD" }, { en: "SIDBI", bn: "SIDBI" }, { en: "EXIM Bank", bn: "EXIM Bank" }, { en: "NHb", bn: "NHB" }],
+    answer: 0,
+    explanation: { en: "NABARD is the apex development financial institution for agriculture and rural development.", bn: "NABARD কৃষি ও গ্রামীণ উন্নয়নের শীর্ষ উন্নয়ন আর্থিক প্রতিষ্ঠান।" },
+    source: "Original PrepBangla practice question; concept checked against standard economics and Indian official institutional material. Not represented as a verbatim PYQ.",
+    status: "verified"
+  },
+  {
+    id: "wbcs-econ-072", exam: "WBCS", subject: "Economy",
+    question: { en: "The primary objective of the Public Distribution System is to:", bn: "গণবণ্টন ব্যবস্থার (PDS) প্রধান উদ্দেশ্য কী?" },
+    options: [{ en: "Make essential commodities accessible, especially to eligible households", bn: "বিশেষত যোগ্য পরিবারকে অত্যাবশ্যক পণ্য সহজলভ্য করা" }, { en: "Set prices of all manufactured goods", bn: "সব উৎপাদিত পণ্যের দাম নির্ধারণ" }, { en: "Provide export subsidies to firms", bn: "প্রতিষ্ঠানকে রপ্তানি ভর্তুকি দেওয়া" }, { en: "Replace agricultural markets", bn: "কৃষি বাজারের বিকল্প হওয়া" }],
+    answer: 0,
+    explanation: { en: "The PDS distributes specified essential commodities, especially foodgrains, to eligible households through a network of fair-price shops.", bn: "PDS ন্যায্য মূল্যের দোকানের মাধ্যমে যোগ্য পরিবারকে বিশেষত খাদ্যশস্যসহ নির্দিষ্ট অত্যাবশ্যক পণ্য সরবরাহ করে।" },
+    source: "Original PrepBangla practice question; concept checked against standard economics and Indian official institutional material. Not represented as a verbatim PYQ.",
+    status: "verified"
+  },
+  {
+    id: "wbcs-econ-073", exam: "WBCS", subject: "Economy",
+    question: { en: "Which term describes the situation where a country's exports are greater than its imports?", bn: "কোনো দেশের রপ্তানি আমদানির চেয়ে বেশি হলে তাকে কী বলা হয়?" },
+    options: [{ en: "Trade surplus", bn: "বাণিজ্য উদ্বৃত্ত" }, { en: "Trade deficit", bn: "বাণিজ্য ঘাটতি" }, { en: "Current-account deficit", bn: "চলতি হিসাবের ঘাটতি" }, { en: "Fiscal deficit", bn: "রাজকোষীয় ঘাটতি" }],
+    answer: 0,
+    explanation: { en: "A trade surplus in goods occurs when the value of merchandise exports exceeds merchandise imports over the period.", bn: "নির্দিষ্ট সময়ে পণ্য রপ্তানির মূল্য পণ্য আমদানির মূল্যের চেয়ে বেশি হলে পণ্য বাণিজ্যে উদ্বৃত্ত হয়।" },
+    source: "Original PrepBangla practice question; concept checked against standard economics and Indian official institutional material. Not represented as a verbatim PYQ.",
+    status: "verified"
+  },
+  {
+    id: "wbcs-econ-074", exam: "WBCS", subject: "Economy",
+    question: { en: "The exchange rate is the:", bn: "বিনিময় হার কী?" },
+    options: [{ en: "Price of one currency expressed in another currency", bn: "অন্য মুদ্রায় প্রকাশিত একটি মুদ্রার মূল্য" }, { en: "Rate of growth of domestic output", bn: "দেশীয় উৎপাদনের বৃদ্ধির হার" }, { en: "Interest paid on government debt", bn: "সরকারি ঋণের সুদের হার" }, { en: "Ratio of tax to GDP", bn: "GDP-র তুলনায় করের অনুপাত" }],
+    answer: 0,
+    explanation: { en: "An exchange rate expresses the price of one currency in terms of another currency.", bn: "একটি মুদ্রার মূল্য অন্য মুদ্রার এককে প্রকাশ করাই বিনিময় হার।" },
+    source: "Original PrepBangla practice question; concept checked against standard economics and Indian official institutional material. Not represented as a verbatim PYQ.",
+    status: "verified"
+  },
+  {
+    id: "wbcs-econ-075", exam: "WBCS", subject: "Economy",
+    question: { en: "A current-account deficit in the balance of payments means, broadly, that:", bn: "বৈদেশিক লেনদেনের ভারসাম্যে চলতি হিসাবের ঘাটতি সাধারণভাবে কী বোঝায়?" },
+    options: [{ en: "Current-account payments exceed current-account receipts", bn: "চলতি হিসাবের অর্থপ্রদান প্রাপ্তির চেয়ে বেশি" }, { en: "Government expenditure exceeds tax revenue", bn: "সরকারি ব্যয় কর রাজস্বের চেয়ে বেশি" }, { en: "Imports of goods alone are zero", bn: "পণ্যের আমদানি শূন্য" }, { en: "Foreign exchange reserves must be zero", bn: "বৈদেশিক মুদ্রার রিজার্ভ অবশ্যই শূন্য" }],
+    answer: 0,
+    explanation: { en: "A current-account deficit occurs when current-account debits exceed credits; it includes goods, services, primary income and secondary income.", bn: "চলতি হিসাবের ডেবিট বা অর্থপ্রদান ক্রেডিট বা প্রাপ্তির চেয়ে বেশি হলে ঘাটতি হয়; এতে পণ্য, পরিষেবা, প্রাথমিক ও দ্বিতীয়ক আয় থাকে।" },
+    source: "Original PrepBangla practice question; concept checked against standard economics and Indian official institutional material. Not represented as a verbatim PYQ.",
+    status: "verified"
+  },
+  {
+    id: "wbcs-econ-076", exam: "WBCS", subject: "Economy",
+    question: { en: "Which organisation is responsible for administering the World Trade Organization agreements?", bn: "বিশ্ব বাণিজ্য সংস্থার চুক্তিগুলি পরিচালনার দায়িত্ব কোন সংস্থার?" },
+    options: [{ en: "World Trade Organization", bn: "বিশ্ব বাণিজ্য সংস্থা" }, { en: "International Monetary Fund", bn: "আন্তর্জাতিক মুদ্রা তহবিল" }, { en: "World Bank", bn: "বিশ্বব্যাঙ্ক" }, { en: "UNDP", bn: "UNDP" }],
+    answer: 0,
+    explanation: { en: "The WTO provides the institutional framework for administering multilateral trade agreements and related functions.", bn: "WTO বহুপাক্ষিক বাণিজ্য চুক্তি পরিচালনা ও সংশ্লিষ্ট কাজের প্রাতিষ্ঠানিক কাঠামো দেয়।" },
+    source: "Original PrepBangla practice question; concept checked against standard economics and Indian official institutional material. Not represented as a verbatim PYQ.",
+    status: "verified"
+  },
+  {
+    id: "wbcs-econ-077", exam: "WBCS", subject: "Economy",
+    question: { en: "Which of the following is a non-tariff barrier to trade?", bn: "নিচের কোনটি বাণিজ্যের অশুল্ক বাধা?" },
+    options: [{ en: "Import quota", bn: "আমদানি কোটা" }, { en: "Customs duty", bn: "শুল্ক" }, { en: "Export tariff", bn: "রপ্তানি শুল্ক" }, { en: "Specific import tax", bn: "নির্দিষ্ট আমদানি কর" }],
+    answer: 0,
+    explanation: { en: "An import quota limits the quantity of a good that may be imported and is a non-tariff trade restriction.", bn: "আমদানি কোটা কোনো পণ্যের আমদানিযোগ্য পরিমাণ সীমিত করে; এটি অশুল্ক বাণিজ্য বাধা।" },
+    source: "Original PrepBangla practice question; concept checked against standard economics and Indian official institutional material. Not represented as a verbatim PYQ.",
+    status: "verified"
+  },
+  {
+    id: "wbcs-econ-078", exam: "WBCS", subject: "Economy",
+    question: { en: "Which of the following best describes an ad valorem tax?", bn: "অ্যাড ভ্যালোরেম করের সঠিক বর্ণনা কোনটি?" },
+    options: [{ en: "A tax charged as a percentage of value", bn: "মূল্যের শতকরা হারে আরোপিত কর" }, { en: "A fixed amount per physical unit", bn: "প্রতি ভৌত এককে নির্দিষ্ট কর" }, { en: "A tax only on personal income", bn: "শুধু ব্যক্তিগত আয়ের উপর কর" }, { en: "A tax collected only at the border", bn: "শুধু সীমান্তে আদায় করা কর" }],
+    answer: 0,
+    explanation: { en: "An ad valorem tax is calculated as a percentage of the value of the taxable item or transaction.", bn: "অ্যাড ভ্যালোরেম কর করযোগ্য পণ্য বা লেনদেনের মূল্যের শতকরা হিসাবে নির্ধারিত হয়।" },
+    source: "Original PrepBangla practice question; concept checked against standard economics and Indian official institutional material. Not represented as a verbatim PYQ.",
+    status: "verified"
+  },
+  {
+    id: "wbcs-econ-079", exam: "WBCS", subject: "Economy",
+    question: { en: "Which institution regulates the securities market in India?", bn: "ভারতে সিকিউরিটিজ বাজার নিয়ন্ত্রণ করে কোন সংস্থা?" },
+    options: [{ en: "SEBI", bn: "SEBI" }, { en: "RBI", bn: "RBI" }, { en: "IRDAI", bn: "IRDAI" }, { en: "PFRDA", bn: "PFRDA" }],
+    answer: 0,
+    explanation: { en: "The Securities and Exchange Board of India regulates the securities market and aims to protect investors and promote market development.", bn: "SEBI সিকিউরিটিজ বাজার নিয়ন্ত্রণ করে; বিনিয়োগকারীদের সুরক্ষা ও বাজারের উন্নয়ন এর উদ্দেশ্য।" },
+    source: "Original PrepBangla practice question; concept checked against standard economics and Indian official institutional material. Not represented as a verbatim PYQ.",
+    status: "verified"
+  },
+  {
+    id: "wbcs-econ-080", exam: "WBCS", subject: "Economy",
+    question: { en: "Which institution regulates insurance in India?", bn: "ভারতে বিমা ক্ষেত্র নিয়ন্ত্রণ করে কোন সংস্থা?" },
+    options: [{ en: "Insurance Regulatory and Development Authority of India", bn: "ভারতীয় বিমা নিয়ন্ত্রণ ও উন্নয়ন কর্তৃপক্ষ" }, { en: "Securities and Exchange Board of India", bn: "SEBI" }, { en: "Competition Commission of India", bn: "ভারতের প্রতিযোগিতা কমিশন" }, { en: "NABARD", bn: "NABARD" }],
+    answer: 0,
+    explanation: { en: "IRDAI regulates and promotes the insurance sector and protects policyholders' interests under the governing law.", bn: "প্রযোজ্য আইনের অধীনে IRDAI বিমা ক্ষেত্র নিয়ন্ত্রণ ও উন্নয়ন করে এবং পলিসিধারীদের স্বার্থ রক্ষা করে।" },
+    source: "Original PrepBangla practice question; concept checked against standard economics and Indian official institutional material. Not represented as a verbatim PYQ.",
+    status: "verified"
+  },
+  {
+    id: "wbcs-econ-081", exam: "WBCS", subject: "Economy",
+    question: { en: "Which of the following is generally classified as infrastructure?", bn: "নিচের কোনটি সাধারণত অবকাঠামো হিসেবে শ্রেণিবদ্ধ?" },
+    options: [{ en: "Electricity transmission network", bn: "বিদ্যুৎ সঞ্চালন নেটওয়ার্ক" }, { en: "A household's monthly grocery purchase", bn: "পরিবারের মাসিক বাজার" }, { en: "A personal savings account", bn: "ব্যক্তিগত সঞ্চয়ী হিসাব" }, { en: "A one-time festival expense", bn: "এককালীন উৎসব ব্যয়" }],
+    answer: 0,
+    explanation: { en: "Infrastructure includes foundational facilities and networks such as power, transport, communication and water systems that support economic activity.", bn: "অবকাঠামোর মধ্যে বিদ্যুৎ, পরিবহণ, যোগাযোগ ও জলব্যবস্থার মতো মৌলিক পরিষেবা ও নেটওয়ার্ক রয়েছে, যা অর্থনৈতিক কার্যক্রমকে সহায়তা করে।" },
+    source: "Original PrepBangla practice question; concept checked against standard economics and Indian official institutional material. Not represented as a verbatim PYQ.",
+    status: "verified"
+  },
+  {
+    id: "wbcs-econ-082", exam: "WBCS", subject: "Economy",
+    question: { en: "A public-private partnership (PPP) generally involves:", bn: "সরকারি-বেসরকারি অংশীদারিত্ব (PPP) সাধারণত কী বোঝায়?" },
+    options: [{ en: "A contractual arrangement where public and private sectors share roles and risks in providing an asset or service", bn: "সম্পদ বা পরিষেবা প্রদানে সরকারি ও বেসরকারি ক্ষেত্রের মধ্যে চুক্তিভিত্তিক ভূমিকা ও ঝুঁকি ভাগ" }, { en: "Complete transfer of all government functions to charities", bn: "সরকারি সব কাজ দাতব্য সংস্থায় হস্তান্তর" }, { en: "Only a government grant to households", bn: "পরিবারকে শুধু সরকারি অনুদান" }, { en: "A merger of two private banks", bn: "দুটি বেসরকারি ব্যাঙ্কের সংযুক্তি" }],
+    answer: 0,
+    explanation: { en: "PPP arrangements allocate responsibilities, risks and returns between public authorities and private partners under a contract; structures differ by project.", bn: "PPP চুক্তিতে সরকারি কর্তৃপক্ষ ও বেসরকারি অংশীদারের মধ্যে দায়িত্ব, ঝুঁকি ও আয় বণ্টিত হয়; প্রকল্পভেদে কাঠামো আলাদা।" },
+    source: "Original PrepBangla practice question; concept checked against standard economics and Indian official institutional material. Not represented as a verbatim PYQ.",
+    status: "verified"
+  },
+  {
+    id: "wbcs-econ-083", exam: "WBCS", subject: "Economy",
+    question: { en: "Disinvestment refers to:", bn: "বিনিয়োগ প্রত্যাহার (Disinvestment) বলতে কী বোঝায়?" },
+    options: [{ en: "Sale of the government's stake in a public sector enterprise", bn: "রাষ্ট্রায়ত্ত প্রতিষ্ঠানে সরকারের অংশীদারিত্ব বিক্রি" }, { en: "Purchase of new machinery by a private firm", bn: "বেসরকারি প্রতিষ্ঠানের নতুন যন্ত্র কেনা" }, { en: "An increase in household savings", bn: "পরিবারের সঞ্চয় বৃদ্ধি" }, { en: "Repayment of a bank loan by a farmer", bn: "কৃষকের ব্যাঙ্কঋণ পরিশোধ" }],
+    answer: 0,
+    explanation: { en: "Disinvestment is the sale or dilution of government equity in public sector enterprises; the extent and form vary by policy.", bn: "রাষ্ট্রায়ত্ত প্রতিষ্ঠানে সরকারের ইক্যুইটি বিক্রি বা অংশীদারিত্ব কমানোকে disinvestment বলে; নীতি অনুযায়ী এর ধরন ও মাত্রা ভিন্ন হয়।" },
+    source: "Original PrepBangla practice question; concept checked against standard economics and Indian official institutional material. Not represented as a verbatim PYQ.",
+    status: "verified"
+  },
+  {
+    id: "wbcs-econ-084", exam: "WBCS", subject: "Economy",
+    question: { en: "Which of the following is a likely effect of an increase in the repo rate, other things equal?", bn: "অন্যান্য বিষয় অপরিবর্তিত থাকলে রেপো হার বৃদ্ধির সম্ভাব্য প্রভাব কোনটি?" },
+    options: [{ en: "Higher borrowing costs and softer credit demand", bn: "ঋণের খরচ বৃদ্ধি ও ঋণ চাহিদা দুর্বল হওয়া" }, { en: "Lower lending rates immediately in every bank", bn: "সব ব্যাঙ্কে অবিলম্বে ঋণের সুদ কমা" }, { en: "Automatic increase in exports", bn: "রপ্তানি স্বয়ংক্রিয়ভাবে বৃদ্ধি" }, { en: "Automatic reduction in public debt", bn: "সরকারি ঋণ স্বয়ংক্রিয়ভাবে কমা" }],
+    answer: 0,
+    explanation: { en: "A higher repo rate can transmit to market rates, raising borrowing costs and moderating credit and aggregate demand, though transmission varies.", bn: "রেপো হার বৃদ্ধি বাজারের সুদের হারে প্রভাব ফেলতে পারে, ঋণের খরচ বাড়িয়ে ঋণ ও সামগ্রিক চাহিদা নিয়ন্ত্রণ করতে পারে; তবে প্রভাবের মাত্রা ভিন্ন হয়।" },
+    source: "Original PrepBangla practice question; concept checked against standard economics and Indian official institutional material. Not represented as a verbatim PYQ.",
+    status: "verified"
+  },
+  {
+    id: "wbcs-econ-085", exam: "WBCS", subject: "Economy",
+    question: { en: "Which measure is a quantitative monetary policy instrument?", bn: "নিচের কোনটি পরিমাণগত মুদ্রানীতির উপকরণ?" },
+    options: [{ en: "Cash Reserve Ratio", bn: "নগদ রিজার্ভ অনুপাত" }, { en: "Moral suasion", bn: "নৈতিক প্ররোচনা" }, { en: "Selective credit advice", bn: "নির্বাচিত ঋণ সংক্রান্ত পরামর্শ" }, { en: "Consumer awareness campaign", bn: "ভোক্তা সচেতনতা অভিযান" }],
+    answer: 0,
+    explanation: { en: "CRR changes the proportion of banks' specified liabilities held as cash reserves and affects system liquidity; moral suasion is qualitative.", bn: "CRR ব্যাঙ্কের নির্দিষ্ট দায়ের যে অংশ নগদ রিজার্ভে রাখতে হয় তা বদলে তারল্যকে প্রভাবিত করে; moral suasion গুণগত উপকরণ।" },
+    source: "Original PrepBangla practice question; concept checked against standard economics and Indian official institutional material. Not represented as a verbatim PYQ.",
+    status: "verified"
+  },
+  {
+    id: "wbcs-econ-086", exam: "WBCS", subject: "Economy",
+    question: { en: "Which statement about the Finance Commission is correct?", bn: "অর্থ কমিশন সম্পর্কে কোন বক্তব্যটি সঠিক?" },
+    options: [{ en: "It is constituted by the President under Article 280", bn: "২৮০ অনুচ্ছেদ অনুযায়ী রাষ্ট্রপতি এটি গঠন করেন" }, { en: "It is a permanent department of RBI", bn: "এটি RBI-র স্থায়ী বিভাগ" }, { en: "It sets the policy repo rate", bn: "এটি নীতিগত রেপো হার নির্ধারণ করে" }, { en: "It directly prepares the Union Budget", bn: "এটি সরাসরি কেন্দ্রীয় বাজেট তৈরি করে" }],
+    answer: 0,
+    explanation: { en: "Article 280 provides for the President to constitute a Finance Commission at the prescribed interval, generally every five years or earlier.", bn: "২৮০ অনুচ্ছেদে নির্ধারিত সময় অন্তর, সাধারণত প্রতি পাঁচ বছর বা তার আগে, রাষ্ট্রপতিকে অর্থ কমিশন গঠনের বিধান দেওয়া হয়েছে।" },
+    source: "Original PrepBangla practice question; concept checked against standard economics and Indian official institutional material. Not represented as a verbatim PYQ.",
+    status: "verified"
+  },
+  {
+    id: "wbcs-econ-087", exam: "WBCS", subject: "Economy",
+    question: { en: "The GST compensation cess was designed primarily to:", bn: "GST ক্ষতিপূরণ সেস প্রধানত কী উদ্দেশ্যে চালু করা হয়েছিল?" },
+    options: [{ en: "Compensate states for specified revenue losses during the transition to GST", bn: "GST-তে রূপান্তরের সময় নির্দিষ্ট রাজস্ব ক্ষতির জন্য রাজ্যকে ক্ষতিপূরণ দেওয়া" }, { en: "Fund RBI's monetary operations", bn: "RBI-র মুদ্রানীতি কার্যক্রমে অর্থায়ন" }, { en: "Replace personal income tax", bn: "ব্যক্তিগত আয়করের বিকল্প হওয়া" }, { en: "Finance municipal elections", bn: "পুরসভার নির্বাচনে অর্থায়ন" }],
+    answer: 0,
+    explanation: { en: "The GST (Compensation to States) Act, 2017 provided for compensation to states for specified revenue loss for a transition period; the statutory compensation period has since run its course.", bn: "GST (Compensation to States) Act, 2017 রূপান্তরকালে নির্দিষ্ট রাজস্ব ক্ষতির জন্য রাজ্যকে ক্ষতিপূরণের বিধান করেছিল; আইনে নির্ধারিত ক্ষতিপূরণকাল ইতিমধ্যে শেষ হয়েছে।" },
+    source: "Original PrepBangla practice question; concept checked against standard economics and Indian official institutional material. Not represented as a verbatim PYQ.",
+    status: "verified"
+  },
+  {
+    id: "wbcs-econ-088", exam: "WBCS", subject: "Economy",
+    question: { en: "Which is the correct relationship between fiscal deficit and government borrowing?", bn: "রাজকোষীয় ঘাটতি ও সরকারি ঋণগ্রহণের মধ্যে সঠিক সম্পর্ক কোনটি?" },
+    options: [{ en: "Fiscal deficit indicates the government's borrowing requirement, subject to financing adjustments", bn: "অর্থায়ন সমন্বয় সাপেক্ষে রাজকোষীয় ঘাটতি সরকারের ঋণগ্রহণের প্রয়োজন নির্দেশ করে" }, { en: "Fiscal deficit is always equal to revenue deficit", bn: "রাজকোষীয় ঘাটতি সর্বদা রাজস্ব ঘাটতির সমান" }, { en: "Borrowing is a tax receipt", bn: "ঋণগ্রহণ কর প্রাপ্তি" }, { en: "Fiscal deficit excludes all capital expenditure", bn: "রাজকোষীয় ঘাটতিতে সব মূলধনী ব্যয় বাদ" }],
+    answer: 0,
+    explanation: { en: "Fiscal deficit measures the gap between total expenditure and receipts excluding borrowings; it broadly indicates the borrowing requirement.", bn: "ঋণ বাদে মোট ব্যয় ও মোট প্রাপ্তির ব্যবধানই রাজকোষীয় ঘাটতি; এটি সাধারণভাবে ঋণগ্রহণের প্রয়োজন নির্দেশ করে।" },
+    source: "Original PrepBangla practice question; concept checked against standard economics and Indian official institutional material. Not represented as a verbatim PYQ.",
+    status: "verified"
+  },
+  {
+    id: "wbcs-econ-089", exam: "WBCS", subject: "Economy",
+    question: { en: "Which of the following is a revenue expenditure?", bn: "নিচের কোনটি রাজস্ব ব্যয়?" },
+    options: [{ en: "Payment of salaries to government employees", bn: "সরকারি কর্মচারীদের বেতন প্রদান" }, { en: "Construction of a new national highway", bn: "নতুন জাতীয় সড়ক নির্মাণ" }, { en: "Purchase of land for a railway project", bn: "রেল প্রকল্পের জন্য জমি কেনা" }, { en: "Acquisition of a new defence aircraft", bn: "নতুন প্রতিরক্ষা বিমান অধিগ্রহণ" }],
+    answer: 0,
+    explanation: { en: "Salaries are generally revenue expenditure because they do not directly create a government asset; the other options generally create or acquire assets.", bn: "বেতন সাধারণত রাজস্ব ব্যয়, কারণ তা সরাসরি সরকারি সম্পদ সৃষ্টি করে না; অন্য বিকল্পগুলি সাধারণত সম্পদ সৃষ্টি বা অধিগ্রহণ করে।" },
+    source: "Original PrepBangla practice question; concept checked against standard economics and Indian official institutional material. Not represented as a verbatim PYQ.",
+    status: "verified"
+  },
+  {
+    id: "wbcs-econ-090", exam: "WBCS", subject: "Economy",
+    question: { en: "Which of the following is a capital expenditure?", bn: "নিচের কোনটি মূলধনী ব্যয়?" },
+    options: [{ en: "Construction of a public hospital building", bn: "সরকারি হাসপাতাল ভবন নির্মাণ" }, { en: "Payment of routine office electricity bills", bn: "দপ্তরের নিয়মিত বিদ্যুৎ বিল" }, { en: "Interest on outstanding government debt", bn: "সরকারি ঋণের বকেয়া সুদ" }, { en: "Monthly salaries of staff", bn: "কর্মীদের মাসিক বেতন" }],
+    answer: 0,
+    explanation: { en: "Capital expenditure creates assets or reduces liabilities. Construction of a public hospital creates a durable public asset.", bn: "মূলধনী ব্যয় সম্পদ সৃষ্টি করে বা দায় কমায়। সরকারি হাসপাতাল নির্মাণ একটি স্থায়ী সরকারি সম্পদ সৃষ্টি করে।" },
+    source: "Original PrepBangla practice question; concept checked against standard economics and Indian official institutional material. Not represented as a verbatim PYQ.",
+    status: "verified"
+  },
+  {
+    id: "wbcs-econ-091", exam: "WBCS", subject: "Economy",
+    question: { en: "Which concept refers to the value of goods and services produced within a country's domestic territory?", bn: "কোনো দেশের অভ্যন্তরীণ ভূখণ্ডে উৎপাদিত পণ্য ও পরিষেবার মূল্যকে কোন ধারণা বোঝায়?" },
+    options: [{ en: "Gross Domestic Product", bn: "মোট দেশজ উৎপাদন" }, { en: "Gross National Income", bn: "মোট জাতীয় আয়" }, { en: "Net National Product", bn: "নিট জাতীয় উৎপাদন" }, { en: "Personal disposable income", bn: "ব্যক্তিগত ব্যবহারযোগ্য আয়" }],
+    answer: 0,
+    explanation: { en: "GDP measures the value of final goods and services produced within the domestic territory during a period, under the relevant accounting rules.", bn: "প্রযোজ্য হিসাববিধি অনুযায়ী নির্দিষ্ট সময়ে দেশের অভ্যন্তরীণ ভূখণ্ডে উৎপাদিত চূড়ান্ত পণ্য ও পরিষেবার মূল্য GDP মাপে।" },
+    source: "Original PrepBangla practice question; concept checked against standard economics and Indian official institutional material. Not represented as a verbatim PYQ.",
+    status: "verified"
+  },
+  {
+    id: "wbcs-econ-092", exam: "WBCS", subject: "Economy",
+    question: { en: "Which of the following is not normally counted as current production in GDP?", bn: "নিচের কোনটি সাধারণত GDP-তে চলতি উৎপাদন হিসেবে গণ্য হয় না?" },
+    options: [{ en: "Sale of a used car between two households", bn: "দুটি পরিবারের মধ্যে ব্যবহৃত গাড়ি বিক্রি" }, { en: "Newly produced furniture", bn: "নতুন উৎপাদিত আসবাব" }, { en: "Current hotel accommodation service", bn: "চলতি হোটেল আবাসন পরিষেবা" }, { en: "Newly constructed residential building", bn: "নতুন নির্মিত আবাসিক ভবন" }],
+    answer: 0,
+    explanation: { en: "A used good was counted when first produced. Its resale is not new production, although any current brokerage service is counted.", bn: "ব্যবহৃত পণ্যটি প্রথম উৎপাদনের সময় গণনা করা হয়েছিল। পুনর্বিক্রয় নতুন উৎপাদন নয়, যদিও বর্তমান দালালি পরিষেবার মূল্য গণ্য হয়।" },
+    source: "Original PrepBangla practice question; concept checked against standard economics and Indian official institutional material. Not represented as a verbatim PYQ.",
+    status: "verified"
+  },
+  {
+    id: "wbcs-econ-093", exam: "WBCS", subject: "Economy",
+    question: { en: "The base year of a price index is used to:", bn: "মূল্যসূচকের ভিত্তিবর্ষ কী কাজে ব্যবহৃত হয়?" },
+    options: [{ en: "Provide the reference period for comparing price changes", bn: "দামের পরিবর্তন তুলনার জন্য রেফারেন্স সময় নির্ধারণ" }, { en: "Fix the current year's inflation rate by law", bn: "আইন করে চলতি বছরের মুদ্রাস্ফীতির হার স্থির করা" }, { en: "Determine the fiscal deficit", bn: "রাজকোষীয় ঘাটতি নির্ধারণ" }, { en: "Set the exchange rate", bn: "বিনিময় হার নির্ধারণ" }],
+    answer: 0,
+    explanation: { en: "A base year provides a reference for index-number comparisons; the selected year and methodology are periodically reviewed by statistical authorities.", bn: "ভিত্তিবর্ষ সূচক তুলনার রেফারেন্স দেয়; পরিসংখ্যান কর্তৃপক্ষ সময়ে সময়ে বছর ও পদ্ধতি পর্যালোচনা করে।" },
+    source: "Original PrepBangla practice question; concept checked against standard economics and Indian official institutional material. Not represented as a verbatim PYQ.",
+    status: "verified"
+  },
+  {
+    id: "wbcs-econ-094", exam: "WBCS", subject: "Economy",
+    question: { en: "Which is the best example of cost-push inflation?", bn: "ব্যয়-প্রণোদিত মুদ্রাস্ফীতির সবচেয়ে ভালো উদাহরণ কোনটি?" },
+    options: [{ en: "A sharp rise in energy input costs raises firms' prices", bn: "জ্বালানি উপকরণের ব্যয় দ্রুত বেড়ে প্রতিষ্ঠানের দাম বৃদ্ধি" }, { en: "Household demand surges after a tax cut", bn: "কর কমার পর পরিবারের চাহিদা বেড়ে যাওয়া" }, { en: "Consumer confidence increases", bn: "ভোক্তার আস্থা বৃদ্ধি" }, { en: "A rise in productivity lowers unit costs", bn: "উৎপাদনশীলতা বৃদ্ধিতে একক ব্যয় কমা" }],
+    answer: 0,
+    explanation: { en: "Cost-push inflation can arise when higher input costs, such as energy or raw materials, are passed through into output prices.", bn: "জ্বালানি বা কাঁচামালের মতো উপকরণের ব্যয় বাড়লে তা পণ্যের দামে স্থানান্তরিত হয়ে cost-push inflation ঘটাতে পারে।" },
+    source: "Original PrepBangla practice question; concept checked against standard economics and Indian official institutional material. Not represented as a verbatim PYQ.",
+    status: "verified"
+  },
+  {
+    id: "wbcs-econ-095", exam: "WBCS", subject: "Economy",
+    question: { en: "Which of the following best describes stagflation?", bn: "মন্দাস্ফীতি (stagflation)-র সঠিক বর্ণনা কোনটি?" },
+    options: [{ en: "High inflation accompanied by weak growth and high unemployment", bn: "উচ্চ মুদ্রাস্ফীতির সঙ্গে দুর্বল প্রবৃদ্ধি ও উচ্চ বেকারত্ব" }, { en: "Falling prices with rapid growth", bn: "দাম কমার সঙ্গে দ্রুত প্রবৃদ্ধি" }, { en: "Low inflation and full employment", bn: "কম মুদ্রাস্ফীতি ও পূর্ণ কর্মসংস্থান" }, { en: "A budget surplus with trade surplus", bn: "বাজেট উদ্বৃত্ত ও বাণিজ্য উদ্বৃত্ত" }],
+    answer: 0,
+    explanation: { en: "Stagflation describes the combination of stagnant or weak output growth and high inflation, often alongside elevated unemployment.", bn: "দুর্বল বা স্থবির উৎপাদন বৃদ্ধির সঙ্গে উচ্চ মুদ্রাস্ফীতি, প্রায়ই উচ্চ বেকারত্বসহ, থাকাকে stagflation বলে।" },
+    source: "Original PrepBangla practice question; concept checked against standard economics and Indian official institutional material. Not represented as a verbatim PYQ.",
+    status: "verified"
+  },
+  {
+    id: "wbcs-econ-096", exam: "WBCS", subject: "Economy",
+    question: { en: "Which of the following is a function of the Competition Commission of India?", bn: "ভারতের প্রতিযোগিতা কমিশনের একটি কাজ কী?" },
+    options: [{ en: "Prevent practices having an appreciable adverse effect on competition", bn: "প্রতিযোগিতার উপর উল্লেখযোগ্য বিরূপ প্রভাব ফেলে এমন কার্যকলাপ প্রতিরোধ" }, { en: "Set the policy interest rate", bn: "নীতিগত সুদের হার নির্ধারণ" }, { en: "Regulate insurance premiums", bn: "বিমার প্রিমিয়াম নিয়ন্ত্রণ" }, { en: "Issue currency notes", bn: "মুদ্রার নোট জারি" }],
+    answer: 0,
+    explanation: { en: "The Competition Commission of India enforces competition law, addressing anti-competitive agreements, abuse of dominance and combinations under the Act.", bn: "Competition Commission of India প্রতিযোগিতা আইন প্রয়োগ করে; বিরোধী-প্রতিযোগিতামূলক চুক্তি, প্রভাবশালী অবস্থানের অপব্যবহার ও সংযুক্তি পরীক্ষা করে।" },
+    source: "Original PrepBangla practice question; concept checked against standard economics and Indian official institutional material. Not represented as a verbatim PYQ.",
+    status: "verified"
+  },
+  {
+    id: "wbcs-econ-097", exam: "WBCS", subject: "Economy",
+    question: { en: "Which of the following is a direct instrument of agricultural price support in India?", bn: "ভারতে কৃষিপণ্যের মূল্য সহায়তার প্রত্যক্ষ উপকরণ কোনটি?" },
+    options: [{ en: "Minimum Support Price", bn: "ন্যূনতম সহায়ক মূল্য" }, { en: "Repo rate", bn: "রেপো হার" }, { en: "Cash Reserve Ratio", bn: "নগদ রিজার্ভ অনুপাত" }, { en: "Import duty on all consumer goods", bn: "সব ভোগ্যপণ্যে আমদানি শুল্ক" }],
+    answer: 0,
+    explanation: { en: "MSP is an administered price-support mechanism for selected crops; procurement operations and farmer access vary by crop and region.", bn: "MSP নির্বাচিত ফসলের জন্য প্রশাসনিক মূল্য-সহায়তা ব্যবস্থা; সংগ্রহ ও কৃষকের প্রবেশাধিকার ফসল ও অঞ্চলভেদে ভিন্ন।" },
+    source: "Original PrepBangla practice question; concept checked against standard economics and Indian official institutional material. Not represented as a verbatim PYQ.",
+    status: "verified"
+  },
+  {
+    id: "wbcs-econ-098", exam: "WBCS", subject: "Economy",
+    question: { en: "Which of the following best describes food security?", bn: "খাদ্য নিরাপত্তার সঠিক বর্ণনা কোনটি?" },
+    options: [{ en: "Physical and economic access to sufficient, safe and nutritious food", bn: "পর্যাপ্ত, নিরাপদ ও পুষ্টিকর খাদ্যে ভৌত ও আর্থিক প্রবেশাধিকার" }, { en: "Only high foodgrain production at national level", bn: "শুধু জাতীয় স্তরে খাদ্যশস্য উৎপাদন বেশি হওয়া" }, { en: "A ban on all food imports", bn: "সব খাদ্য আমদানি নিষিদ্ধ করা" }, { en: "Only stable prices for luxury foods", bn: "শুধু বিলাসবহুল খাদ্যের দাম স্থিতিশীল রাখা" }],
+    answer: 0,
+    explanation: { en: "Food security concerns availability, access and utilisation of sufficient safe and nutritious food, with stability over time.", bn: "খাদ্য নিরাপত্তায় পর্যাপ্ত নিরাপদ ও পুষ্টিকর খাদ্যের প্রাপ্যতা, প্রবেশাধিকার, ব্যবহার এবং সময়ের সঙ্গে স্থিতিশীলতা অন্তর্ভুক্ত।" },
+    source: "Original PrepBangla practice question; concept checked against standard economics and Indian official institutional material. Not represented as a verbatim PYQ.",
+    status: "verified"
+  },
+  {
+    id: "wbcs-econ-099", exam: "WBCS", subject: "Economy",
+    question: { en: "Which index is used to measure changes in industrial production in India?", bn: "ভারতে শিল্প উৎপাদনের পরিবর্তন মাপতে কোন সূচক ব্যবহৃত হয়?" },
+    options: [{ en: "Index of Industrial Production", bn: "শিল্প উৎপাদন সূচক" }, { en: "Consumer Price Index", bn: "ভোক্তা মূল্যসূচক" }, { en: "Human Development Index", bn: "মানব উন্নয়ন সূচক" }, { en: "Wholesale Price Index", bn: "পাইকারি মূল্যসূচক" }],
+    answer: 0,
+    explanation: { en: "The Index of Industrial Production (IIP) measures changes in the volume of production in selected industrial sectors.", bn: "শিল্প উৎপাদন সূচক (IIP) নির্বাচিত শিল্পক্ষেত্রে উৎপাদনের পরিমাণগত পরিবর্তন মাপে।" },
+    source: "Original PrepBangla practice question; concept checked against standard economics and Indian official institutional material. Not represented as a verbatim PYQ.",
+    status: "verified"
+  },
+  {
+    id: "wbcs-econ-100", exam: "WBCS", subject: "Economy",
+    question: { en: "Which sector is commonly called the secondary sector?", bn: "কোন ক্ষেত্রকে সাধারণত দ্বিতীয় ক্ষেত্র বলা হয়?" },
+    options: [{ en: "Manufacturing and construction", bn: "উৎপাদন ও নির্মাণ" }, { en: "Agriculture and fishing", bn: "কৃষি ও মৎস্য" }, { en: "Banking and education", bn: "ব্যাঙ্কিং ও শিক্ষা" }, { en: "Public administration only", bn: "শুধু সরকারি প্রশাসন" }],
+    answer: 0,
+    explanation: { en: "The secondary sector transforms raw materials into manufactured goods and includes construction.", bn: "দ্বিতীয় ক্ষেত্র কাঁচামালকে উৎপাদিত পণ্যে রূপান্তর করে এবং নির্মাণকাজও এর অন্তর্ভুক্ত।" },
+    source: "Original PrepBangla practice question; concept checked against standard economics and Indian official institutional material. Not represented as a verbatim PYQ.",
+    status: "verified"
+  },
+  {
+    id: "wbcs-econ-101", exam: "WBCS", subject: "Economy",
+    question: { en: "A rise in labour productivity means:", bn: "শ্রম উৎপাদনশীলতা বৃদ্ধি বলতে কী বোঝায়?" },
+    options: [{ en: "More output per unit of labour input", bn: "শ্রমের প্রতি একক ব্যবহারে বেশি উৎপাদন" }, { en: "Higher wages in every occupation automatically", bn: "প্রত্যেক পেশায় স্বয়ংক্রিয়ভাবে বেশি মজুরি" }, { en: "More workers without any change in output", bn: "উৎপাদন অপরিবর্তিত রেখে শ্রমিকের সংখ্যা বৃদ্ধি" }, { en: "A fall in capital per worker in all cases", bn: "সব ক্ষেত্রে প্রতি শ্রমিকে মূলধন হ্রাস" }],
+    answer: 0,
+    explanation: { en: "Labour productivity commonly measures output per worker or per hour worked; it can rise through skills, technology and better organisation.", bn: "শ্রম উৎপাদনশীলতা সাধারণত প্রতি শ্রমিক বা প্রতি কর্মঘণ্টায় উৎপাদন মাপে; দক্ষতা, প্রযুক্তি ও উন্নত সংগঠনের মাধ্যমে এটি বাড়তে পারে।" },
+    source: "Original PrepBangla practice question; concept checked against standard economics and Indian official institutional material. Not represented as a verbatim PYQ.",
+    status: "verified"
+  }
 ];
