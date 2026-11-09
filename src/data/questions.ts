@@ -1014,13 +1014,4 @@ export const questions: Question[] = [
     source: "Original PrepBangla practice question; concept checked against standard economics and Indian official institutional material. Not represented as a verbatim PYQ.",
     status: "verified"
   },
-  {
-    id: "wbcs-econ-101", exam: "WBCS", subject: "Economy",
-    question: { en: "A rise in labour productivity means:", bn: "শ্রম উৎপাদনশীলতা বৃদ্ধি বলতে কী বোঝায়?" },
-    options: [{ en: "More output per unit of labour input", bn: "শ্রমের প্রতি একক ব্যবহারে বেশি উৎপাদন" }, { en: "Higher wages in every occupation automatically", bn: "প্রত্যেক পেশায় স্বয়ংক্রিয়ভাবে বেশি মজুরি" }, { en: "More workers without any change in output", bn: "উৎপাদন অপরিবর্তিত রেখে শ্রমিকের সংখ্যা বৃদ্ধি" }, { en: "A fall in capital per worker in all cases", bn: "সব ক্ষেত্রে প্রতি শ্রমিকে মূলধন হ্রাস" }],
-    answer: 0,
-    explanation: { en: "Labour productivity commonly measures output per worker or per hour worked; it can rise through skills, technology and better organisation.", bn: "শ্রম উৎপাদনশীলতা সাধারণত প্রতি শ্রমিক বা প্রতি কর্মঘণ্টায় উৎপাদন মাপে; দক্ষতা, প্রযুক্তি ও উন্নত সংগঠনের মাধ্যমে এটি বাড়তে পারে।" },
-    source: "Original PrepBangla practice question; concept checked against standard economics and Indian official institutional material. Not represented as a verbatim PYQ.",
-    status: "verified"
-  }
 ];
